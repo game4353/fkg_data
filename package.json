@@ -1,0 +1,19 @@
+{
+  "name": "fkg_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@https://github.com/game4353/fkg_data.git"
+  },
+  "author": "4353",
+  "license": "ISC",
+  "type": "module"
+}

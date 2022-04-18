@@ -1,3 +1,11 @@
+parse/
+asset/
+
+master/master.json
+
+private/
+*.bat
+
+*.log
 test/
 test.*
-*.bat
