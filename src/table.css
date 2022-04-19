@@ -1,0 +1,61 @@
+
+.table{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    overflow-x: auto;
+}
+.thead{
+    display: flex;
+    flex-direction: column;
+}
+.tbody{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.th{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;  
+}
+.tr{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;  
+}
+.filter{
+    width: 100%;
+}
+.tr.hide_0,
+.tr.hide_1,
+.tr.hide_2,
+.tr.hide_3,
+.tr.hide_4,
+.tr.hide_5,
+.tr.hide_6,
+.tr.hide_7,
+.tr.hide_8{
+    display: none;
+}
+.tr:hover {
+    background-color: lavender;
+}
+.td{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 2px;
+}
+.tbody [col="ability"]{
+    flex-direction: column;
+}

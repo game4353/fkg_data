@@ -15,5 +15,8 @@
   },
   "author": "4353",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
 }

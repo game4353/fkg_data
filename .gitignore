@@ -1,5 +1,5 @@
 parse/
-asset/
+node_modules/
 
 master/master.json
 
