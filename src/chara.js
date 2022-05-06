@@ -1,12 +1,5 @@
-function ref2no(ref){
-    if (ref < 73) return ref
-    if (ref < 560) return ref - 36
-    if (ref < 564) return ref - 32
-    if (ref < 568) return 0
-    if (ref < 572) return ref - 44
-    if (ref > 1e5) return 0
-    return ref - 40
-}
+
+
 function getIconPart(type, num = ''){
     return $("<div class='iconpart'>")
     .css("background-image", `url('asset/icon/${type}${num}.png')`) 
@@ -31,6 +24,7 @@ function getIcon(id, rare, prop, heart){
 
 class Chara{
     constructor(arr){
+        this.base = this
         this.ID = arr[0]*1
         this.family = arr[2]*1
         this.nation = arr[3]*1
@@ -49,11 +43,12 @@ class Chara{
         this.name = arr[49]
         this.noCG = arr[50]*1
         this.kana = arr[52]
+        this.isEvent = arr[55]*1
+        this.createDate = arr[56]
         this.ev4 = arr[60]*1
         this.isEv4 = arr[61]*1
         this.canEv4 = arr[62]*1
 
-        this.No = ref2no(this.ref)
         if (this.ability = Abilities.fromChara(this.ID)) {
             this.abilityDesc = this.ability.toString()
         }
@@ -61,7 +56,32 @@ class Chara{
             this.skillDesc = this.skill.toString()
         }
     }
-    get icon(){
+    get No () {
+        if (this.ref < 73) return this.ref
+        if (this.ref < 560) return this.ref - 36
+        if (this.ref < 564) return this.ref - 32
+        if (this.ref < 568) return 0
+        if (this.ref < 572) return this.ref - 44
+        if (this.ref > 1e5) return 0
+        return this.ref - 40
+    }
+    get source () {
+        if (this.base !== this) return this.base.source
+        if (this.rare === 6) {
+            if (this.No === 235) return '報酬 &<br>クエスト'
+            if (this.No === 461) return '配布'
+            if ([495,675,738].includes(this.No)) return '交換'
+            if ([530,668,669,759,761,827,828,829,844,845].includes(this.No)) return 'コラボ'
+            if ([623,718,746,770,784,795,821,834,839,850].includes(this.No)) return '限定'
+            if ([634,635,636,652,658,666,717,741,756,771,785,804,811,818,825].includes(this.No)) return '虹色メダル'
+            if (this.No <= 632) return 'ガチャ &<br>虹色メダル'
+            if (this.No <= 848) return 'ガチャ'
+        } else if (this.rare === 5) {
+            //if(this.isEvent) return '配布'
+        }
+        return '??'
+    }
+    get icon () {
         if (!this._icon) this._icon = getIcon(this.iconID, this.rare, this.prop)
         return this._icon
     }
@@ -73,6 +93,12 @@ class Charas{
     static init () {        
         for (let id in masterData.masterCharacter) {
             Charas.charas[id] = new Chara(masterData.masterCharacter[id])
+        }
+        for (let id in Charas.charas) {
+            let chara = Charas.charas[id]
+            if (chara.ev2) Charas.charas[chara.ev2].base = chara.base
+            if (chara.ev3) Charas.charas[chara.ev3].base = chara.base
+            if (chara.ev4) Charas.charas[chara.ev4].base = chara.base
         }
         for (let id in Charas.charas) {
             let chara = Charas.charas[id]
