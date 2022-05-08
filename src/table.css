@@ -42,7 +42,8 @@
 .tr.hide_5,
 .tr.hide_6,
 .tr.hide_7,
-.tr.hide_8{
+.tr.hide_8,
+.tr.hide_9{
     display: none;
 }
 .tr:hover {
