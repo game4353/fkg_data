@@ -34,18 +34,6 @@
 .filter{
     width: 100%;
 }
-.tr.hide_0,
-.tr.hide_1,
-.tr.hide_2,
-.tr.hide_3,
-.tr.hide_4,
-.tr.hide_5,
-.tr.hide_6,
-.tr.hide_7,
-.tr.hide_8,
-.tr.hide_9{
-    display: none;
-}
 .tr:hover {
     background-color: lavender;
 }
