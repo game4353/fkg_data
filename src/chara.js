@@ -75,13 +75,13 @@ class Chara {
                 return '交換';
             if ([530, 668, 669, 759, 761, 827, 828, 829, 844, 845].includes(this.No))
                 return 'コラボ';
-            if ([623, 718, 746, 770, 784, 795, 821, 834, 839, 850].includes(this.No))
+            if ([623, 718, 746, 770, 784, 795, 821, 834, 839, 850, 854].includes(this.No))
                 return '限定';
             if ([634, 635, 636, 652, 658, 666, 717, 741, 756, 771, 785, 804, 811, 818, 825].includes(this.No))
                 return '虹色メダル';
             if (this.No <= 632)
                 return 'ガチャ &<br>虹色メダル';
-            if (this.No <= 852)
+            if (this.No <= 855)
                 return 'ガチャ';
         }
         else if (this.rare === 5) {

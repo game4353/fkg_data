@@ -59,7 +59,7 @@ class Skills {
     static skills: { [id: number]: Skill } = {}
     static fromId (sid: number) {
         if (!Skills.skills[sid]) {
-            let arr = masterData.masterCharacterSkill[sid]
+            let arr = masterData.masterCharacterSkill![sid]
             if (arr) Skills.skills[sid] = new Skill(arr)
         }
         return Skills.skills[sid]
@@ -67,8 +67,8 @@ class Skills {
 }
 
 class Ability {
-    ID
-    desc
+    ID: number
+    desc: string
     constructor (arr: any[]) {
         this.ID = arr[0]
         this.desc = arr[3]
@@ -76,13 +76,28 @@ class Ability {
     toString () {
         return this.desc
     }
+    toDiv () {
+        let desc = this.desc
+        let kws
+        while (kws = desc.match(/【(.+?)】/)) {
+            desc += '\n' + Keywords.get(kws[1])
+            desc = desc.replace(kws[0], kws[1])
+        }
+        desc = desc.replace(/<br>/g, '\n')
+
+        let spans = this.desc.split('<br>')
+        spans = spans.map(_ => `<span>${_}</span>`)
+        let html = spans.join('')
+        html = html.replace(/【(.+?)】/g, (match, p1) => Keywords.getHtml(p1))
+        return $("<div class='td ability'>").val(desc).html(html)
+    }
 }
 
 class Abilities {
     static abilities: { [cid: number]: Ability } = {}
     static fromChara (cid: number) {
         if (!Abilities.abilities[cid]) {
-            let arr = masterData.masterCharacterLeaderSkillDescription[cid]
+            let arr = masterData.masterCharacterLeaderSkillDescription![cid]
             if (arr) Abilities.abilities[cid] = new Ability(arr)
         }
         return Abilities.abilities[cid]

@@ -31,7 +31,12 @@ class Table {
             let tr = $("<div class='tr'>")
             this.tbody.append(tr)
             for (let c = 0; c < arr[r].length; c++) {
-                tr.append(this.td(c).html(arr[r][c]).val(arr[r][c]))
+                if (arr[r][c] && arr[r][c].toDiv) {
+                    const div = arr[r][c].toDiv()
+                    this.cols[c].push(div)
+                    tr.append(div)
+                }
+                else tr.append(this.td(c).html(arr[r][c]).val(arr[r][c]))
             }
         }
     }

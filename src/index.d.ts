@@ -1,3 +1,9 @@
+type DataName = 
+  'masterCharacter' |
+  'masterCharacterSkill' |
+  'masterCharacterLeaderSkillDescription' |
+  'masterKeywords'
+
 declare namespace Raw {
   interface Chara {
     MasterCharacterID: number

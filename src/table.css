@@ -37,7 +37,7 @@
 .tr:hover {
     background-color: lavender;
 }
-.td{
+.td {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -45,6 +45,6 @@
     align-content: flex-start;
     margin: 2px;
 }
-.tbody [col="ability"]{
+.ability {
     flex-direction: column;
 }

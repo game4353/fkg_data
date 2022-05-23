@@ -1,7 +1,7 @@
 type Data = { [id: string]: string[] }
 
-const masterData: {[file: string]: Data} = {}
-const files = [
+const masterData: {[file in DataName]?: Data} = {}
+const files: DataName[] = [
     'masterCharacter',
     'masterCharacterSkill',
     'masterCharacterLeaderSkillDescription',
@@ -56,7 +56,7 @@ function main () {
         ['prop', 30],
         ['name', 200],
         ['skillDesc', 400],
-        ['abilityDesc', 500],
+        ['ability', 500],
         ['source', 100],
         ['date', 100]
     ]

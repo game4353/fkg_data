@@ -65,6 +65,20 @@ class Ability {
     toString() {
         return this.desc;
     }
+    toDiv() {
+        let desc = this.desc;
+        let kws;
+        while (kws = desc.match(/【(.+?)】/)) {
+            desc += '\n' + Keywords.get(kws[1]);
+            desc = desc.replace(kws[0], kws[1]);
+        }
+        desc = desc.replace(/<br>/g, '\n');
+        let spans = this.desc.split('<br>');
+        spans = spans.map(_ => `<span>${_}</span>`);
+        let html = spans.join('');
+        html = html.replace(/【(.+?)】/g, (match, p1) => Keywords.getHtml(p1));
+        return $("<div class='td ability'>").val(desc).html(html);
+    }
 }
 class Abilities {
     static fromChara(cid) {

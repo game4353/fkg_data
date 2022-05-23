@@ -53,7 +53,7 @@ function main() {
         ['prop', 30],
         ['name', 200],
         ['skillDesc', 400],
-        ['abilityDesc', 500],
+        ['ability', 500],
         ['source', 100],
         ['date', 100]
     ];
