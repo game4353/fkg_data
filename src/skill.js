@@ -20,6 +20,7 @@ class Skill {
         switch (this.typeID) {
             case 101: return `敵単体に${dmg1}倍のダメージを与える`;
             case 103: return `敵単体に${dmg1}倍のダメージを与え、HPを吸収する`;
+            case 1032: return `敵単体に${dmg1}倍のダメージを与え、HPを吸収する<br>※スキルの発動回数に応じて、指定のアビリティセットを呼び出す`;
             case 104: return `敵全体に${dmg1}倍のダメージを与える`;
             case 106: return `敵全体に${dmg1}倍のダメージを与え、HPを吸収する`;
             case 107: return `敵に${amount}回${dmg1}倍のダメージを与える`;
