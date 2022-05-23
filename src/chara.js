@@ -81,7 +81,7 @@ class Chara {
                 return '虹色メダル';
             if (this.No <= 632)
                 return 'ガチャ &<br>虹色メダル';
-            if (this.No <= 848)
+            if (this.No <= 852)
                 return 'ガチャ';
         }
         else if (this.rare === 5) {
@@ -93,6 +93,9 @@ class Chara {
         if (!this._icon)
             this._icon = getIcon(this.iconID, this.rare, this.prop, this.heart);
         return this._icon;
+    }
+    get date() {
+        return this.createDate.match(/\d+-\d+-\d+/)[0];
     }
 }
 class Charas {

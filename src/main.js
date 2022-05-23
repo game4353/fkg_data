@@ -54,7 +54,8 @@ function main() {
         ['name', 200],
         ['skillDesc', 400],
         ['abilityDesc', 500],
-        ['source', 100]
+        ['source', 100],
+        ['date', 100]
     ];
     let arr = [title_width.map(r => r[0])];
     for (let chara of Charas.getKnight()) {

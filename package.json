@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "tsc & python -m http.server"
   },
   "repository": {
     "type": "git",

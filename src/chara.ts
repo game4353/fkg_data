@@ -106,7 +106,7 @@ class Chara {
             if ([623,718,746,770,784,795,821,834,839,850].includes(this.No)) return '限定'
             if ([634,635,636,652,658,666,717,741,756,771,785,804,811,818,825].includes(this.No)) return '虹色メダル'
             if (this.No <= 632) return 'ガチャ &<br>虹色メダル'
-            if (this.No <= 848) return 'ガチャ'
+            if (this.No <= 852) return 'ガチャ'
         } else if (this.rare === 5) {
             //if(this.isEvent) return '配布'
         }
@@ -115,6 +115,9 @@ class Chara {
     get icon () {
         if (!this._icon) this._icon = getIcon(this.iconID!, this.rare, this.prop, this.heart)
         return this._icon
+    }
+    get date () {
+        return this.createDate.match(/\d+-\d+-\d+/)[0]
     }
 
 }
