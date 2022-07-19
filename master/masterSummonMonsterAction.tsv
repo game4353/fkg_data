@@ -1,2 +1,4 @@
 700	attackstop	10001	1500	3	0	0	0	
 701	stopskill	10001	3500	3	0	7000	0	
+702	attackstop	10001	1000	3	0	0	0	
+703	stopskill	10001	1500	3	0	0	0	
