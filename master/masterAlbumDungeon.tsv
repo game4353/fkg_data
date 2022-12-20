@@ -2299,6 +2299,12 @@
 2326	12	450500	封印の古代花騎士	images/album/banner/ancient/ancient_6.png	450500	8826	450520	三話　選定の剣	1			0	
 2327	12	450500	封印の古代花騎士	images/album/banner/ancient/ancient_6.png	450500	8827	450530	四話　剪定の竜	1			0	
 2328	12	450500	封印の古代花騎士	images/album/banner/ancient/ancient_6.png	450500	8828	450530	エピローグ	1			0	
+2329	1	1019	聖夜に祈りを、あなたに愛を	images/album/dungeon/scenariobanner_205.png	5110	8852	1500600	一話　予期せぬ来客	208	"2022-12-26 14:30:00"	（２０２２/１２/１２～１２/２６）	0	
+2330	1	1019	聖夜に祈りを、あなたに愛を	images/album/dungeon/scenariobanner_205.png	5110	8853	1500600	二話　聖夜の宴	208	"2022-12-26 14:30:00"	（２０２２/１２/１２～１２/２６）	0	
+2331	1	1019	聖夜に祈りを、あなたに愛を	images/album/dungeon/scenariobanner_205.png	5110	8854	1500600	三話　すれ違う思い	208	"2022-12-26 14:30:00"	（２０２２/１２/１２～１２/２６）	0	
+2332	1	1019	聖夜に祈りを、あなたに愛を	images/album/dungeon/scenariobanner_205.png	5110	8855	1500600	四話　シスターの受難	208	"2022-12-26 14:30:00"	（２０２２/１２/１２～１２/２６）	0	
+2333	1	1019	聖夜に祈りを、あなたに愛を	images/album/dungeon/scenariobanner_205.png	5110	8856	1500600	五話　聖夜に祈りを、あなたに愛を	208	"2022-12-26 14:30:00"	（２０２２/１２/１２～１２/２６）	0	
+2334	1	1019	聖夜に祈りを、あなたに愛を	images/album/dungeon/scenariobanner_205.png	5110	8857	1500600	エピローグ	208	"2022-12-26 14:30:00"	（２０２２/１２/１２～１２/２６）	0	
 10000	2	1	通常任務1	images/album/dungeon/mainscenariobanner_1.png	2	488	1001	"一部 1-1 初仕事"	1000			0	
 10001	2	1	通常任務1	images/album/dungeon/mainscenariobanner_1.png	2	489	1002	"一部 1-2 森を抜け山へ"	999			0	
 10002	2	1	通常任務1	images/album/dungeon/mainscenariobanner_1.png	2	490	1003	"一部 1-3 分かれ道その先に"	998			0	
@@ -2684,3 +2690,8 @@
 10382	2	10002	通常任務6	images/album/dungeon/mainscenariobanner_64.png	305	7466	3029	"三部 6-5 永遠と未来"	688			0	
 10383	2	10002	通常任務6	images/album/dungeon/mainscenariobanner_64.png	305	7467	3030	"三部 6-6 絶望の底で返り咲く花"	689			0	
 10384	2	10002	通常任務6	images/album/dungeon/mainscenariobanner_64.png	305	7468	3030	"三部 6-6 ED 祈り、願い、そして――"	690			0	
+10385	2	10003	通常任務0	images/album/dungeon/mainscenariobanner_65.png	400	8862	4000	"四部 0-1 目覚め、歩き、千足を降す"	1			0	
+10386	2	10003	通常任務0	images/album/dungeon/mainscenariobanner_65.png	400	8863	4001	"四部 0-2 探り、集い、千頭を討つ"	1			0	
+10387	2	10003	通常任務0	images/album/dungeon/mainscenariobanner_65.png	400	8864	4002	"四部 0-3 抗い、進み、千羽を貫く"	1			0	
+10388	2	10003	通常任務0	images/album/dungeon/mainscenariobanner_65.png	400	8865	4003	"四部 0-4 願い、信じ、千年を束ねる"	1			0	
+10389	2	10003	通常任務0	images/album/dungeon/mainscenariobanner_65.png	400	8866	4003	"四部 0-4 ED そして千の花が咲く"	1			0	
