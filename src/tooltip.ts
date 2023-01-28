@@ -10,8 +10,11 @@ class Keywords {
         }
     }
     static get (kw: string) {
-        if (!Keywords.dict) Keywords.init()
-        return Keywords.dict![kw]
+        if (Keywords.dict == undefined) Keywords.init()
+        if (Keywords.dict![kw]) return Keywords.dict![kw]
+        if (Keywords.dict![`"${kw}"`]) return Keywords.dict![`"${kw}"`]
+        console.log(`missing "${kw}" in keywords.`)
+        return ''
     }
     static getHtml (kw: string) {
         let div = $("<span class='tooltip'>").text(kw)

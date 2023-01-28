@@ -23,6 +23,7 @@ function getIcon (id: number, rare: number, prop: number, heart: boolean) {
 }
 
 class Chara {
+    // https://dugrqaqinbtcq.cloudfront.net/product/ynnFQcGDLfaUcGhp/index.js
     // memo: search 'MasterCharacterTable' or '['masterdata']['MasterCharacterData']();'
     base
     ID

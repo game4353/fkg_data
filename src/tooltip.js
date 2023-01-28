@@ -8,11 +8,17 @@ class Keywords {
             const desc = kw[4];
             Keywords.dict[name] = desc;
         }
+        console.log(this.dict);
     }
     static get(kw) {
-        if (!Keywords.dict)
+        if (Keywords.dict == undefined)
             Keywords.init();
-        return Keywords.dict[kw];
+        if (Keywords.dict[kw])
+            return Keywords.dict[kw];
+        if (Keywords.dict[`"${kw}"`])
+            return Keywords.dict[`"${kw}"`];
+        console.log(`missing "${kw}" in keywords.`);
+        return '';
     }
     static getHtml(kw) {
         let div = $("<span class='tooltip'>").text(kw);
