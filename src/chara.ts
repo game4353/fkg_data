@@ -1,4 +1,4 @@
-const premium = await $.getJSON( "../asset/data/premium.json")
+const premium = await $.getJSON("asset/data/premium.json")
 
 import { E_MasterCharacterData } from './data.js'
 import { masterData } from './data.js'
