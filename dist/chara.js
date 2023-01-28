@@ -1,3 +1,4 @@
+const premium = await $.getJSON("../asset/data/premium.json");
 import { E_MasterCharacterData } from './data.js';
 import { masterData } from './data.js';
 import { Abilities, Skills } from './skill.js';
@@ -103,15 +104,15 @@ export class Chara {
         if (this.rare === 6) {
             if (this.No === 235)
                 return '報酬 &<br>クエスト';
-            if (this.No === 461)
+            if ([461, 914, 925].includes(this.No))
                 return '配布';
             if ([495, 675, 738].includes(this.No))
                 return '交換';
-            if ([530, 668, 669, 759, 761, 827, 828, 829, 844, 845].includes(this.No))
+            if ([530, 668, 669, 759, 761, 827, 828, 829, 844, 845, 902, 903, 904].includes(this.No))
                 return 'コラボ';
-            if ([623, 718, 746, 770, 784, 795, 821, 834, 839, 850, 854].includes(this.No))
+            if ([623, 718, 746, 770, 784, 795, 821, 834, 839, 850, 854, 870, 876, 881, 899, 908, 928].includes(this.No))
                 return '限定';
-            if ([634, 635, 636, 652, 658, 666, 717, 741, 756, 771, 785, 804, 811, 818, 825].includes(this.No))
+            if ([634, 635, 636, 652, 658, 666, 717, 741, 756, 771, 785, 804, 811, 818, 825, 874, 897, 919].includes(this.No))
                 return '虹色メダル';
             if (this.No <= 632)
                 return 'ガチャ &<br>虹色メダル';
@@ -119,8 +120,21 @@ export class Chara {
                 return 'ガチャ';
         }
         else if (this.rare === 5) {
-            //if(this.isEvent) return '配布'
+            if ([171, 206, 248, 280, 322, 452].includes(this.No))
+                return '生放送';
+            if ([528, 529, 667, 758].includes(this.No))
+                return 'コラボ';
+            if ([133, 173, 182, 215, 224, 253, 293, 294, 304, 309, 335, 373, 392, 406, 443, 501].includes(this.No))
+                return '特典';
+            if (this.isEvent)
+                return '配布';
         }
+        else if (this.rare === 2) {
+            if (this.ref < 600)
+                return 'ガチャ';
+        }
+        if (premium.includes(this.base.ID))
+            return 'ガチャ';
         return '??';
     }
     get icon() {
