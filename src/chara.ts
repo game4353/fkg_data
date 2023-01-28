@@ -1,3 +1,7 @@
+import { E_MasterCharacterData } from './data.js'
+import { masterData } from './data.js'
+import { Abilities, Skills } from './skill.js'
+
 type Parts = 'bg' | 'frame' | 'prop' | 'heart'
 
 function getIconPart (type: Parts, num: number | '' = '') {
@@ -22,9 +26,7 @@ function getIcon (id: number, rare: number, prop: number, heart: boolean) {
     return icon
 }
 
-class Chara {
-    // https://dugrqaqinbtcq.cloudfront.net/product/ynnFQcGDLfaUcGhp/index.js
-    // memo: search 'MasterCharacterTable' or '['masterdata']['MasterCharacterData']();'
+export class Chara {
     base
     ID
     family
@@ -32,6 +34,7 @@ class Chara {
     rare
     prop
     skillID
+    skillID2
     hp
     ev2
     isEv2
@@ -58,29 +61,30 @@ class Chara {
     iconID?: number
     constructor (arr: any[]) {
         this.base = this
-        this.ID = arr[0x0]*1 // MasterCharacterID.value
-        this.family = arr[0x2]*1 // BreedID
-        this.nation = arr[0x3]*1 // NationId
-        this.rare = arr[0x7]*1 // Rarity
-        this.prop = arr[0x8]*1 // Material
-        this.skillID = arr[0x13]*1 // BattleSkillID
-        this.hp = arr[0x16]*1 // HPisLV1
-        this.ev2 = arr[0x27]*1 // EvolveCharacterId
-        this.isEv2 = arr[0x28]*1 // MaxEvolveFlag
-        this.isKnight = arr[0x29]*1 // PartySetEnableFlag
-        this.ref = arr[0x2d]*1 // MasterCharacterBookID
-        this.evo = arr[0x2e]*1 // MasterCharacterBookOrderNum
-        this.ev3 = arr[0x34]*1 // FloweringCharacterID
-        this.isEv3 = arr[0x35]*1 // MaxFloweringFlag
-        this.canEv3 = arr[0x36]*1 // FloweringEnableFlag
-        this.name = arr[0x37] // Fullname
-        this.noCG = arr[0x38]*1 // OnlyPerformanceFloweringEnableFlag
-        this.kana = arr[0x3a] // readingCharacterName
-        this.isEvent = arr[0x3d]*1 // isEventCharacter
-        this.createDate = arr[0x3e] // createDate
-        this.ev4 = arr[0x42]*1 // rarityEvolutionTypeId?
-        this.isEv4 = arr[0x43]*1 // MaxRarityGlowFlag
-        this.canEv4 = arr[0x44]*1 // RarityGlowEnableFlag
+        this.ID = arr[E_MasterCharacterData.MasterCharacterID]*1
+        this.family = arr[E_MasterCharacterData.BreedID]*1
+        this.nation = arr[E_MasterCharacterData.NationId]*1
+        this.rare = arr[E_MasterCharacterData.Rarity]*1
+        this.prop = arr[E_MasterCharacterData.Material]*1
+        this.skillID = arr[E_MasterCharacterData.BattleSkillID]*1
+        this.skillID2 = arr[E_MasterCharacterData.BattleSkillID2]*1 // ???
+        this.hp = arr[E_MasterCharacterData.HPisLV1]*1
+        this.ev2 = arr[E_MasterCharacterData.EvolveCharacterId]*1
+        this.isEv2 = arr[E_MasterCharacterData.MaxEvolveFlag]*1
+        this.isKnight = arr[E_MasterCharacterData.PartySetEnableFlag]*1
+        this.ref = arr[E_MasterCharacterData.MasterCharacterBookID]*1
+        this.evo = arr[E_MasterCharacterData.MasterCharacterBookOrderNum]*1
+        this.ev3 = arr[E_MasterCharacterData.FloweringCharacterID]*1
+        this.isEv3 = arr[E_MasterCharacterData.MaxFloweringFlag]*1
+        this.canEv3 = arr[E_MasterCharacterData.FloweringEnableFlag]*1
+        this.name = arr[E_MasterCharacterData.Fullname]
+        this.noCG = arr[E_MasterCharacterData.OnlyPerformanceFloweringEnableFlag]*1
+        this.kana = arr[E_MasterCharacterData.readingCharacterName]
+        this.isEvent = arr[E_MasterCharacterData.isEventCharacter]*1
+        this.createDate = arr[E_MasterCharacterData.createDate]
+        this.ev4 = arr[E_MasterCharacterData.rarityEvolutionTypeId]*1
+        this.isEv4 = arr[E_MasterCharacterData.MaxRarityGlowFlag]*1
+        this.canEv4 = arr[E_MasterCharacterData.RarityGlowEnableFlag]*1
 
         if (this.ability = Abilities.fromChara(this.ID)) {
             this.abilityDesc = this.ability.toString()
@@ -124,7 +128,7 @@ class Chara {
 
 }
 
-class Charas {
+export class Charas {
     static charas: {[id: string]: Chara} = {}
     static init () {        
         for (let id in masterData.masterCharacter) {

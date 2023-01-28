@@ -1,4 +1,6 @@
-class Keywords {
+import { masterData } from "./data.js"
+
+export class Keywords {
     static dict?: { [name: string]: string }
     static init () {
         Keywords.dict = {}

@@ -1,4 +1,6 @@
-class Table {
+import { lazy } from "./lazy.js"
+
+export class Table {
     cols: JQuery<HTMLElement>[][]
     table
     thead

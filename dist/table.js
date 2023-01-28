@@ -1,5 +1,11 @@
-"use strict";
-class Table {
+import { lazy } from "./lazy.js";
+export class Table {
+    cols;
+    table;
+    thead;
+    filters;
+    headers;
+    tbody;
     constructor(arr) {
         this.cols = [];
         this.table = $("<div class='table'>").append(this.thead = $("<div class='thead'>").append(this.filters = $("<div class='th'>"), this.headers = $("<div class='th'>")), this.tbody = $("<div class='tbody'>"));

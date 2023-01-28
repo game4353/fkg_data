@@ -1,5 +1,15 @@
-"use strict";
+import { masterData } from "./data.js";
+import { Keywords } from "./tooltip.js";
 class Skill {
+    ID;
+    name;
+    typeID;
+    arg1;
+    arg2;
+    arg3;
+    desc;
+    prob;
+    probUp;
     constructor(arr) {
         this.ID = arr[0] * 1;
         this.name = arr[1];
@@ -47,7 +57,8 @@ class Skill {
             '<br>' + this.trans();
     }
 }
-class Skills {
+export class Skills {
+    static skills = {};
     static fromId(sid) {
         if (!Skills.skills[sid]) {
             let arr = masterData.masterCharacterSkill[sid];
@@ -57,8 +68,9 @@ class Skills {
         return Skills.skills[sid];
     }
 }
-Skills.skills = {};
 class Ability {
+    ID;
+    desc;
     constructor(arr) {
         this.ID = arr[0];
         this.desc = arr[3];
@@ -77,11 +89,12 @@ class Ability {
         let spans = this.desc.split('<br>');
         spans = spans.map(_ => `<span>${_}</span>`);
         let html = spans.join('');
-        html = html.replace(/【(.+?)】/g, (match, p1) => Keywords.getHtml(p1));
+        html = html.replace(/【(.+?)】/g, (_match, p1) => Keywords.getHtml(p1));
         return $("<div class='td ability'>").val(desc).html(html);
     }
 }
-class Abilities {
+export class Abilities {
+    static abilities = {};
     static fromChara(cid) {
         if (!Abilities.abilities[cid]) {
             let arr = masterData.masterCharacterLeaderSkillDescription[cid];
@@ -91,4 +104,3 @@ class Abilities {
         return Abilities.abilities[cid];
     }
 }
-Abilities.abilities = {};

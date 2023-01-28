@@ -1,5 +1,6 @@
-"use strict";
-class Keywords {
+import { masterData } from "./data.js";
+export class Keywords {
+    static dict;
     static init() {
         Keywords.dict = {};
         for (let i in masterData.masterKeywords) {
@@ -8,7 +9,6 @@ class Keywords {
             const desc = kw[4];
             Keywords.dict[name] = desc;
         }
-        console.log(this.dict);
     }
     static get(kw) {
         if (Keywords.dict == undefined)

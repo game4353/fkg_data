@@ -1,3 +1,5 @@
+import { masterData } from "./data.js"
+import { Keywords } from "./tooltip.js"
 
 class Skill {
     ID
@@ -56,7 +58,7 @@ class Skill {
         '<br>' + this.trans()
     }
 }
-class Skills {
+export class Skills {
     static skills: { [id: number]: Skill } = {}
     static fromId (sid: number) {
         if (!Skills.skills[sid]) {
@@ -89,12 +91,12 @@ class Ability {
         let spans = this.desc.split('<br>')
         spans = spans.map(_ => `<span>${_}</span>`)
         let html = spans.join('')
-        html = html.replace(/【(.+?)】/g, (match, p1) => Keywords.getHtml(p1))
+        html = html.replace(/【(.+?)】/g, (_match, p1) => Keywords.getHtml(p1))
         return $("<div class='td ability'>").val(desc).html(html)
     }
 }
 
-class Abilities {
+export class Abilities {
     static abilities: { [cid: number]: Ability } = {}
     static fromChara (cid: number) {
         if (!Abilities.abilities[cid]) {

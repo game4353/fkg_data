@@ -1,11 +1,11 @@
-type DataName = 
+export type DataName = 
   'masterCharacter' |
   'masterCharacterSkill' |
   'masterCharacterLeaderSkillDescription' |
   'masterKeywords'
 
-declare namespace Raw {
-  interface Chara {
+export namespace Raw {
+  export interface Chara {
     MasterCharacterID: number
     ItemID: number
     BreedID: number
@@ -19,6 +19,12 @@ declare namespace Raw {
     AbilityID1: number
     AbilityID2: number
     AbilityID3: number
+    AbilityID4: number
+    AbilityID5: number
+    AbilityID6: number
+    AbilityID7: number
+    AbilityID8: number
+    AbilityID9: number
     BattleSkillID: number
     BattleSkillID2: number
     HPisLV1: number
@@ -62,8 +68,6 @@ declare namespace Raw {
     isImportant: boolean
     isEventCharacter: boolean
     createDate: string
-    // 0x39
-    // 0x3a
     swfVersion: string
     rarityEvolutionTypeId: number
     MaxRarityGlowFlag: boolean
