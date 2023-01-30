@@ -5,8 +5,8 @@ export class Keywords {
         Keywords.dict = {};
         for (let i in masterData.masterKeywords) {
             const kw = masterData.masterKeywords[i];
-            const name = kw[1];
-            const desc = kw[4];
+            const name = kw._key;
+            const desc = kw._description;
             Keywords.dict[name] = desc;
         }
     }

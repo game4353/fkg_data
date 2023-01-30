@@ -1,5 +1,4 @@
 const premium = await $.getJSON("asset/data/premium.json");
-import { E_MasterCharacterData } from './data.js';
 import { masterData } from './data.js';
 import { Abilities, Skills } from './skill.js';
 function getIconPart(type, num = '') {
@@ -19,26 +18,21 @@ function getIcon(id, rare, prop, heart) {
 }
 export class Chara {
     base;
+    data;
     ID;
     family;
     nation;
-    rare;
-    prop;
     skillID;
     skillID2;
     hp;
     ev2;
     isEv2;
     isKnight;
-    ref;
-    evo;
     ev3;
     isEv3;
     canEv3;
-    name;
     noCG;
     kana;
-    isEvent;
     createDate;
     ev4;
     isEv4;
@@ -48,34 +42,28 @@ export class Chara {
     skill;
     skillDesc;
     _icon;
-    heart = false;
     iconID;
-    constructor(arr) {
+    constructor(data) {
         this.base = this;
-        this.ID = arr[E_MasterCharacterData.MasterCharacterID] * 1;
-        this.family = arr[E_MasterCharacterData.BreedID] * 1;
-        this.nation = arr[E_MasterCharacterData.NationId] * 1;
-        this.rare = arr[E_MasterCharacterData.Rarity] * 1;
-        this.prop = arr[E_MasterCharacterData.Material] * 1;
-        this.skillID = arr[E_MasterCharacterData.BattleSkillID] * 1;
-        this.skillID2 = arr[E_MasterCharacterData.BattleSkillID2] * 1; // ???
-        this.hp = arr[E_MasterCharacterData.HPisLV1] * 1;
-        this.ev2 = arr[E_MasterCharacterData.EvolveCharacterId] * 1;
-        this.isEv2 = arr[E_MasterCharacterData.MaxEvolveFlag] * 1;
-        this.isKnight = arr[E_MasterCharacterData.PartySetEnableFlag] * 1;
-        this.ref = arr[E_MasterCharacterData.MasterCharacterBookID] * 1;
-        this.evo = arr[E_MasterCharacterData.MasterCharacterBookOrderNum] * 1;
-        this.ev3 = arr[E_MasterCharacterData.FloweringCharacterID] * 1;
-        this.isEv3 = arr[E_MasterCharacterData.MaxFloweringFlag] * 1;
-        this.canEv3 = arr[E_MasterCharacterData.FloweringEnableFlag] * 1;
-        this.name = arr[E_MasterCharacterData.Fullname];
-        this.noCG = arr[E_MasterCharacterData.OnlyPerformanceFloweringEnableFlag] * 1;
-        this.kana = arr[E_MasterCharacterData.readingCharacterName];
-        this.isEvent = arr[E_MasterCharacterData.isEventCharacter] * 1;
-        this.createDate = arr[E_MasterCharacterData.createDate];
-        this.ev4 = arr[E_MasterCharacterData.rarityEvolutionTypeId] * 1;
-        this.isEv4 = arr[E_MasterCharacterData.MaxRarityGlowFlag] * 1;
-        this.canEv4 = arr[E_MasterCharacterData.RarityGlowEnableFlag] * 1;
+        this.data = data;
+        this.ID = parseInt(data.MasterCharacterID);
+        this.family = parseInt(data.BreedID);
+        this.nation = parseInt(data.NationId);
+        this.skillID = parseInt(data.BattleSkillID);
+        this.skillID2 = parseInt(data.BattleSkillID2); // ???
+        this.hp = parseInt(data.HPisLV1);
+        this.ev2 = parseInt(data.EvolveCharacterId);
+        this.isEv2 = parseInt(data.MaxEvolveFlag);
+        this.isKnight = parseInt(data.PartySetEnableFlag);
+        this.ev3 = parseInt(data.FloweringCharacterID);
+        this.isEv3 = parseInt(data.MaxFloweringFlag);
+        this.canEv3 = parseInt(data.FloweringEnableFlag);
+        this.noCG = parseInt(data.OnlyPerformanceFloweringEnableFlag);
+        this.kana = data.readingCharacterName;
+        this.createDate = data.createDate;
+        this.ev4 = parseInt(data.rarityEvolutionTypeId);
+        this.isEv4 = parseInt(data.MaxRarityGlowFlag);
+        this.canEv4 = parseInt(data.RarityGlowEnableFlag);
         if (this.ability = Abilities.fromChara(this.ID)) {
             this.abilityDesc = this.ability.toString();
         }
@@ -83,20 +71,19 @@ export class Chara {
             this.skillDesc = this.skill.toString();
         }
     }
+    get isEvent() { return this.data.isEventCharacter === '1'; }
+    get name() { return this.data.Fullname; }
+    get evo() { return parseInt(this.data.MasterCharacterBookOrderNum); }
+    get ref() { return parseInt(this.data.MasterCharacterBookID); }
     get No() {
-        if (this.ref < 73)
-            return this.ref;
-        if (this.ref < 560)
-            return this.ref - 36;
-        if (this.ref < 564)
-            return this.ref - 32;
-        if (this.ref < 568)
-            return 0;
-        if (this.ref < 572)
-            return this.ref - 44;
-        if (this.ref > 1e5)
-            return 0;
-        return this.ref - 40;
+        const num = parseInt(masterData.masterCharacterBook[this.ref]._bookNum);
+        if (num < 305)
+            return num;
+        if (num < 525)
+            return num - 1;
+        if (num < 541)
+            return num - 9;
+        return num - 13;
     }
     get source() {
         if (this.base !== this)
@@ -137,58 +124,74 @@ export class Chara {
             return 'ガチャ';
         return '??';
     }
+    get rare() { return parseInt(this.data.Rarity); }
+    get prop() { return parseInt(this.data.Material); }
+    get heart() { return masterData.masterCharacterBook[this.ref]._heartFlag === '1'; }
     get icon() {
         if (!this._icon)
             this._icon = getIcon(this.iconID, this.rare, this.prop, this.heart);
         return this._icon;
     }
-    get date() {
-        return this.createDate.match(/\d+-\d+-\d+/)[0];
-    }
+    get date() { return this.data.createDate.match(/\d+-\d+-\d+/)?.at(0); }
 }
 export class Charas {
     static charas = {};
     static init() {
-        for (let id in masterData.masterCharacter) {
+        for (const id in masterData.masterCharacter) {
             Charas.charas[id] = new Chara(masterData.masterCharacter[id]);
         }
-        for (let id in Charas.charas) {
-            let chara = Charas.charas[id];
-            if (chara.ev2)
-                Charas.charas[chara.ev2].base = chara.base;
-            if (chara.ev3)
-                Charas.charas[chara.ev3].base = chara.base;
-            if (chara.ev4)
-                Charas.charas[chara.ev4].base = chara.base;
+        // assign 'base'
+        for (const id in Charas.charas) {
+            const chara = Charas.charas[id];
+            const data = chara.data;
+            const ev2 = data.EvolveCharacterId;
+            if (ev2 !== '0')
+                Charas.charas[ev2].base = chara.base;
+            const ev3 = data.FloweringCharacterID;
+            if (ev3 !== '0')
+                Charas.charas[ev3].base = chara.base;
+            const ev4 = data.rarityEvolutionTypeId;
+            if (ev4 !== '0')
+                Charas.charas[ev4].base = chara.base;
         }
-        for (let id in Charas.charas) {
+        // assign 'iconID'
+        for (const id in Charas.charas) {
             let chara = Charas.charas[id];
-            if (chara.evo != 1)
+            if (chara.base != chara)
                 continue;
             chara.iconID = chara.ID;
-            let chara2 = Charas.charas[chara.ev2];
-            if (!chara2)
-                continue;
-            let iid = chara2.iconID = chara2.ID;
-            let chara3 = Charas.charas[chara2.ev3 || chara2.ev4];
-            if (!chara3)
-                continue;
-            iid = chara3.iconID = chara3.noCG ? iid : chara3.ID;
-            let chara4 = Charas.charas[chara3.ev3 || chara3.ev4];
-            if (chara4)
-                chara4.iconID = iid;
+            // ev2
+            chara = Charas.charas[chara.data.EvolveCharacterId];
+            if (chara == null)
+                continue; // problematic if there is id=0 
+            let iid = chara.iconID = chara.ID;
+            // ev3
+            chara = Charas.charas[chara.data.FloweringCharacterID]
+                ?? Charas.charas[chara.data.rarityEvolutionTypeId];
+            if (chara == null)
+                continue; // problematic if there is id=0 
+            const noCG = chara.data.OnlyPerformanceFloweringEnableFlag === '1';
+            iid = chara.iconID = noCG ? iid : chara.ID;
+            // ev4
+            chara = Charas.charas[chara.data.FloweringCharacterID]
+                ?? Charas.charas[chara.data.rarityEvolutionTypeId];
+            if (chara == null)
+                continue; // problematic if there is id=0 
+            chara.iconID = iid;
         }
     }
     static getKnight() {
         let arr = [];
         for (let id in Charas.charas) {
-            let chara = Charas.charas[id];
-            if (!chara.isKnight)
+            const data = Charas.charas[id].data;
+            if (data.PartySetEnableFlag === '0')
                 continue;
-            if (!chara.nation)
+            if (data.NationId === '0')
                 continue;
-            arr.push(chara);
+            if (Charas.charas[id].No > 1e5)
+                continue;
+            arr.push(Charas.charas[id]);
         }
-        return arr.sort((a, b) => a.ref - b.ref);
+        return arr.sort((a, b) => a.No - b.No);
     }
 }

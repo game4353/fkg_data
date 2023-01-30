@@ -1,3 +1,4 @@
+MasterBattleSkillID	strName	Effect	Value1	Value2	Value3	strExplanation	BootPossibility	BootCoefficient	BootMagnification	MarriageDamageBonus	0xb	0xc	Value4	0xe
 1	削岩鎚	101	190	0	0		19	1	1	20			0	
 2	地裂波	101	190	0	0		17	1	1	20			0	
 10	ローグエッジ	103	150	10	0		18	1	1.3	20			0	

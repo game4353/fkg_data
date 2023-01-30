@@ -1,9 +1,3 @@
-export type DataName = 
-  'masterCharacter' |
-  'masterCharacterSkill' |
-  'masterCharacterLeaderSkillDescription' |
-  'masterKeywords'
-
 export namespace Raw {
   export interface Chara {
     MasterCharacterID: number

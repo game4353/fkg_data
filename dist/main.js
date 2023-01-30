@@ -15,9 +15,10 @@ const title_width = [
     ['source', 100],
     ['date', 100]
 ];
-let arr = [title_width.map(r => r[0])];
+const titles = title_width.map(r => r[0]);
+const arr = [titles];
 for (let chara of Charas.getKnight()) {
-    arr.push(arr[0].map(h => chara[h]));
+    arr.push(titles.map(h => chara[h]));
 }
 const table = new Table(arr);
 table.setWidth(title_width.map(r => r[1]));

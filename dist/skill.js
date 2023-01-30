@@ -10,16 +10,16 @@ class Skill {
     desc;
     prob;
     probUp;
-    constructor(arr) {
-        this.ID = arr[0] * 1;
-        this.name = arr[1];
-        this.typeID = arr[2] * 1;
-        this.arg1 = arr[3] * 1;
-        this.arg2 = arr[4] * 1;
-        this.arg3 = arr[5] * 1;
-        this.desc = arr[6];
-        this.prob = arr[7] * 1;
-        this.probUp = arr[8] * 1;
+    constructor(data) {
+        this.ID = parseInt(data.MasterBattleSkillID);
+        this.name = data.strName;
+        this.typeID = parseInt(data.Effect);
+        this.arg1 = parseInt(data.Value1);
+        this.arg2 = parseInt(data.Value2);
+        this.arg3 = parseInt(data.Value3);
+        this.desc = data.strExplanation;
+        this.prob = parseInt(data.BootPossibility);
+        this.probUp = parseInt(data.BootCoefficient);
     }
     trans() {
         let dmg1 = this.arg1 / 100;
@@ -71,9 +71,9 @@ export class Skills {
 class Ability {
     ID;
     desc;
-    constructor(arr) {
-        this.ID = arr[0];
-        this.desc = arr[3];
+    constructor(data) {
+        this.ID = parseInt(data.id);
+        this.desc = data.description1;
     }
     toString() {
         return this.desc;
@@ -97,9 +97,9 @@ export class Abilities {
     static abilities = {};
     static fromChara(cid) {
         if (!Abilities.abilities[cid]) {
-            let arr = masterData.masterCharacterLeaderSkillDescription[cid];
-            if (arr)
-                Abilities.abilities[cid] = new Ability(arr);
+            let data = masterData.masterCharacterLeaderSkillDescription[cid];
+            if (data)
+                Abilities.abilities[cid] = new Ability(data);
         }
         return Abilities.abilities[cid];
     }
