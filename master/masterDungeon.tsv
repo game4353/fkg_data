@@ -255,7 +255,7 @@
 1				2021-10-17 00:00:00	2021-10-17 23:59:00			0	2			0	1207	10116	オクトーバー！　もりもりゴールドブースト	1273	10000	dungeon_012	0	0	50	2	2	0	0	3	images/dungeonbanner	001008.png	0	images/dungeonbanner/select/week_8.png		0	0	3	2	1	0		1	0	0	
 6				2022-08-02 00:00:00	2022-08-14 23:59:59			0	2			0	1208	10117	7.5周年記念！1日7回 アンプルゥ・上 ダンジョン	1274	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0	
 6				2022-12-24 00:00:00	2022-12-25 23:59:59			0	2			0	1209	10118	聖夜の1日7回 アンプルゥ・上 ダンジョン	1275	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0	
-6				2023-01-24 00:00:00	2023-02-06 23:59:59			0	2			0	1210	10119	8周年記念！1日8回 アンプルゥ・上 ダンジョン	1276	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0	
+6				2023-01-24 00:00:00	2023-02-05 23:59:59			0	2			0	1210	10119	8周年記念！1日8回 アンプルゥ・上 ダンジョン	1276	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0	
 1				2022-12-27 00:00:00	2023-01-23 14:00:00			0	3			21	5130	1022	緊急任務　雪と絆と白のカラクリ	275	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png		0	1	0	0	0	0		1	0	0	
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6000	6000	月曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	inKnpTOM0L.png	0	images/dungeonbanner/select/limit_1.png		0	0	4	2	0	0		1	0	0	
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6010	6010	火曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	0hgf0RILb6.png	0	images/dungeonbanner/select/limit_2.png		0	0	4	2	0	0		1	0	0	
@@ -1059,6 +1059,7 @@
 1				2022-12-22 00:00:00	2023-01-04 23:59:59			0	3		1646	0	14728	1646	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0	
 1				2023-01-05 00:00:00	2023-01-18 23:59:59			0	3		1647	0	14729	1647	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0	
 1				2023-01-19 00:00:00	2023-02-01 23:59:59			0	3		1648	0	14730	1648	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0	
+1				2023-02-02 00:00:00	2023-02-15 23:59:59			0	3		1649	0	14731	1649	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0	
 1				2016-04-09 00:00:00	2914-08-19 12:08:00			0	3		500	20	23000	500	再復刻任務　滅びの都市ブレーメン(前半)	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_1.png		0	0	7	1	0	0		1	0	0	
 1				2016-04-09 00:00:00	2914-08-19 12:08:00			0	3		500	20	23001	501	再復刻任務　滅びの都市ブレーメン(後半)	2	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_1.png		0	0	7	1	0	0		1	0	0	
 1				2016-04-25 00:00:00	2914-08-19 12:08:00			0	3		502	20	23010	502	再復刻任務　尊い想い出のために(前半)	3	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_2.png		0	0	7	1	0	0		1	0	0	
@@ -1701,7 +1702,7 @@
 1				2022-11-28 00:00:00	2914-08-19 12:08:00			0	5			22	450500	450500	夢見る箱庭の古竜	1025	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/ancient_6.png		0	0	10	0	0	0		1	0	0	
 1				2022-01-17 00:00:00	2914-08-19 12:08:00			0	4			23	451000	451000	VS封印の古代花騎士	1000	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/ancient_1.png	助っ人なし	0	0	0	0	0	0		1	0	0	
 1				2022-08-03 00:00:00	2914-08-19 12:08:00			0	4			23	451500	451500	VS封印の古代花騎士 ボスラッシュ	1001	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/ancient_10.png	助っ人なし	0	0	0	0	0	0		1	0	0	
-1				2023-02-06 00:00:00	2914-08-19 12:08:00			0	4			23	451600	451600	VS封印の古代花騎士 ボスラッシュ2	1002	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/ancient_11.png	助っ人なし	0	0	0	0	0	0		1	0	0	
+1				2023-01-30 00:00:00	2914-08-19 12:08:00			0	4			23	451600	451600	VS封印の古代花騎士 ボスラッシュ2	1002	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/ancient_11.png	助っ人なし	0	0	0	0	0	0		1	0	0	
 1				2019-06-19 00:00:00	2914-08-19 12:08:00			0	5			0	460000	460000	すれ違う少女の手紙	23	0	dungeon_012	0	0	0	4	0	3	0	3	images/dungeonbanner	Fji8Ysm.png	0	images/dungeonbanner/select/concept_16.png	助っ人制限:ゲストパーティのみ	0	0	32	0	0	0		1	0	0	
 1				2022-08-03 00:00:00	2914-08-19 12:08:00			0	4			24	460100	460100	知徳の力のダンジョン	1	0	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/country_5.png	助っ人なし	0	0	30	1	0	0		1	0	3	
 1				2022-08-03 00:00:00	2914-08-19 12:08:00			0	4			24	460200	460200	深い森の力のダンジョン	2	0	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_70.png	助っ人なし	0	0	30	1	0	0		1	0	5	
