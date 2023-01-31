@@ -3,7 +3,14 @@ export const IDHEADERS: Record<DataName, string> = {
   masterCharacterSkill: 'MasterBattleSkillID',
   masterKeywords: '_id',
   masterCharacterBook: '_bookId',
-  masterCharacter: 'MasterCharacterID'
+  masterCharacter: 'MasterCharacterID',
+  masterCharacterEquipment: 'MasterEquipID',
+  masterFlowerMemory: 'id',
+  masterFlowerMemorysAbilitys: 'id',
+  masterAbility: 'id',
+  masterFlowerMemoryGrowthType: 'id',
+  masterFlowerMemoryMaterial: 'id',
+  masterFlowerMemoryRarity: 'id'
 } as const
 
 export const HEADERS = {
@@ -18,8 +25,7 @@ export const HEADERS = {
     'iconType3',
     'description3',
     'iconType4',
-    'description4',
-    '0xa' //
+    'description4'
   ],
   // search "masterCharacterSkill" and go down  
   masterCharacterSkill: [
@@ -36,19 +42,17 @@ export const HEADERS = {
     'MarriageDamageBonus',
     '0xb', //
     '0xc', //
-    'Value4',
-    '0xe' //
+    'Value4'
   ],
-  // search '['MasterKeywordsData']=' and go up find 'parse'
+  // search "['MasterKeywordsData']=" and go up find 'parse'
   masterKeywords: [
     '_id',
     '_key',
     '_color',
     '_title',
-    '_description',
-    '0x5' //
+    '_description'
   ],
-  // search '['MasterCharacterBookData']' and go up find 'parse'
+  // search "['MasterCharacterBookData']" and go up find 'parse'
   masterCharacterBook: [
     '_enableFlag',
     '_enableValue',
@@ -65,7 +69,7 @@ export const HEADERS = {
     '0xc', // empty, timestamp
     '0xd' // timestamp
   ],
-  // search '['MasterCharacterData']();' and go down
+  // search "['MasterCharacterData']();" and go down
   masterCharacter: [
     'MasterCharacterID',
     'ItemID',
@@ -136,8 +140,103 @@ export const HEADERS = {
     'rarityEvolutionTypeId',
     'MaxRarityGlowFlag',
     'RarityGlowEnableFlag',
-    'publicationDate',
-    '0x46' //
+    'publicationDate'
+  ],
+  // search "'masterCharacterEquipment'" and go down
+  masterCharacterEquipment: [
+    'MasterEquipID',
+    'name', // manual
+    'iMasterItemID', // manual
+    'MasterEquipHP',
+    'MasterEquipOffense',
+    'MasterEquipDefense',
+    'MasterEquipSpeed',
+    'MasterMaxEquipOffense',
+    'MasterMaxEquipDefense',
+    'iSell',
+    'MasterEquipEffectID',
+    'MasterEquipEffectValueA',
+    'MasterEquipEffectValueB',
+    'MasterEquipEffectValueC',
+    'MasterEquipEffect2ID',
+    'MasterEquipEffect2ValueA',
+    'MasterEquipEffect2ValueB',
+    'MasterEquipEffect2ValueC',
+    '0x12', //
+    'MasterEquipCategoryID',
+    'MasterEquipExclusiveTypeID',
+    'MasterEquipExclusiveValue',
+    'MasterCharacterEquipmentLevelGroupId',
+    'MasterAvailableSynthesisBaseFlag',
+    'MasterEquipSynthesisMaterialFlag',
+    'MasterEquipDescription',
+    'MasterEquipmentPlus',
+    'EvolveEquipmentId',
+    'MasterEquipmentEvolveId',
+    'MasterMaxEvolveFlag',
+    'WorldFlowerPowerType',
+    'EquipmentType',
+    'EffectType'
+  ],
+  // "['MasterFlowerMemorys']=" ^parse
+  masterFlowerMemory: [    
+    'id',
+    'itemId',
+    'name',
+    'readingName',
+    'rarity',
+    'orderNum',
+    'growthType',
+    'initHitPoint',
+    'hitPointPerLevel',
+    'initAttack',
+    'attackPerLevel',
+    'initDefense',
+    'defensePerLevel',
+    'description'
+  ],
+  masterFlowerMemorysAbilitys: [
+    'id',
+    'flowerMemoryId',
+    'overLimitStep',
+    'abilityId'
+  ],
+  masterFlowerMemoryRarity: [
+    'id',
+    'rarity',
+    'maxOverLimitStep',
+    'saleGameMoney',
+    'synthesisGameMoneyPerLevel',
+    'synthesisExperience',
+    'expPerLevel',
+    'baseMaxLevel',
+    'releaselimitGameMoneyPerStep'
+  ],
+  masterFlowerMemoryMaterial: [
+    'id',
+    'itemId',
+    'rarity',
+    'saleGameMoney',
+    'synthesisExperience',
+    'categoryId',
+    'description'
+  ],
+  masterFlowerMemoryGrowthType: [
+    'id',
+    'growthType',
+    'toLevel',
+    'coefficient'
+  ],
+  masterAbility: [
+    'id',
+    'name',
+    'effectId',
+    'optionId',
+    'description',
+    'value1',
+    'value2',
+    'value3',
+    'value4'
   ]
 } as const
 
