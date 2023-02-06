@@ -1,3 +1,5 @@
+// https://dugrqaqinbtcq.cloudfront.net/product/ynnFQcGDLfaUcGhp/index.js
+
 export const IDHEADERS: Record<DataName, string> = {
   masterCharacterLeaderSkillDescription: 'id',
   masterCharacterSkill: 'MasterBattleSkillID',
@@ -140,7 +142,8 @@ export const HEADERS = {
     'rarityEvolutionTypeId',
     'MaxRarityGlowFlag',
     'RarityGlowEnableFlag',
-    'publicationDate'
+    'publicationDate',
+    'specialCharacterType'
   ],
   // search "'masterCharacterEquipment'" and go down
   masterCharacterEquipment: [
