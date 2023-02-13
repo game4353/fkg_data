@@ -68,8 +68,7 @@ export const HEADERS = {
     '0x9', // timestamp
     '0xa', // timestamp
     '_deleteFlag',
-    '0xc', // empty, timestamp
-    '0xd' // timestamp
+    '0xc' // 
   ],
   // search "['MasterCharacterData']();" and go down
   masterCharacter: [
@@ -142,7 +141,6 @@ export const HEADERS = {
     'rarityEvolutionTypeId',
     'MaxRarityGlowFlag',
     'RarityGlowEnableFlag',
-    'publicationDate',
     'specialCharacterType'
   ],
   // search "'masterCharacterEquipment'" and go down
