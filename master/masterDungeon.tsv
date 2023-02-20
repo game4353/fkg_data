@@ -257,7 +257,7 @@
 6				2022-08-02 00:00:00	2022-08-14 23:59:59			0	2			0	1208	10117	7.5周年記念！1日7回 アンプルゥ・上 ダンジョン	1274	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0
 6				2022-12-24 00:00:00	2022-12-25 23:59:59			0	2			0	1209	10118	聖夜の1日7回 アンプルゥ・上 ダンジョン	1275	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0
 6				2023-01-24 00:00:00	2023-02-05 23:59:59			0	2			0	1210	10119	8周年記念！1日8回 アンプルゥ・上 ダンジョン	1276	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0
-1				2023-01-27 00:00:00	2023-02-20 14:00:00			0	3			21	5140	1023	緊急任務　ほろにが哀愁バレンタイン	276	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png		0	1	0	0	0	0		1	0	0
+1				2023-02-20 00:00:00	2023-03-06 14:00:00			0	3			21	5150	1024	緊急任務　愛とメイドと猫耳パワー	277	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png		0	1	0	0	0	0		1	0	0
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6000	6000	月曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	inKnpTOM0L.png	0	images/dungeonbanner/select/limit_1.png		0	0	4	2	0	0		1	0	0
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6010	6010	火曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	0hgf0RILb6.png	0	images/dungeonbanner/select/limit_2.png		0	0	4	2	0	0		1	0	0
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6020	6020	木曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	ysjtzyMTtK.png	0	images/dungeonbanner/select/limit_3.png		0	0	4	2	0	0		1	0	0
@@ -1302,7 +1302,7 @@
 1				2021-10-20 00:00:00	2914-08-19 12:08:00			0	3		3000	20	24211	3001	再復刻任務　ビーチ・ウォーズ！(後半)	238	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_118.png		0	0	7	1	0	0		1	0	0
 1				2021-10-20 00:00:00	2914-08-19 12:08:00			0	3		3002	20	24220	3002	再復刻任務　真夏のマリンクルーズ(前半)	239	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_119.png		0	0	7	1	0	0		1	0	0
 1				2021-10-20 00:00:00	2914-08-19 12:08:00			0	3		3002	20	24221	3003	再復刻任務　真夏のマリンクルーズ(後半)	240	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_119.png		0	0	7	1	0	0		1	0	0
-1				2017-03-13 00:00:00	2122-01-17 14:00:00			0	3			21	30150	30000	チャレンジダンジョン	242	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_258.png		0	2	14	2	0	0		1	0	0
+1				2017-03-13 00:00:00	2122-03-06 14:00:00			0	3			21	30151	30000	チャレンジダンジョン	242	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_258.png		0	2	14	2	0	0		1	0	0
 1				2017-11-20 00:00:00	2104-08-19 12:08:00			0	9			0	31000	31000	特別ガイドダンジョン	3	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/secret_1.png		0	2	14	2	0	0		1	0	0
 1				2018-09-13 00:00:00	2018-09-19 23:59:59			0	3			0	32000	32000	ウィークリー特別任務	10	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/weekly_1.png		0	100	27	0	0	0		1	0	0
 1				2018-09-20 00:00:00	2018-09-26 23:59:59			0	3			0	32001	32001	ウィークリー特別任務	10	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/weekly_1.png		0	100	27	0	0	0		1	0	0
@@ -1475,10 +1475,10 @@
 1				2019-01-10 00:00:00	2019-03-11 14:00:00			0	3			0	41000	41000	メダルがいっぱい！	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/collabo_01.png		1	1	0	0	0	0		1	0	0
 1				2019-01-10 00:00:00	2019-03-11 14:00:00			0	3			0	41001	41001	メダルがいっぱい！	2	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/collabo_01.png		1	1	0	0	0	0		1	0	0
 1				2019-01-10 00:00:00	2019-03-11 14:00:00			0	3			0	41002	41002	メダルがいっぱい！	3	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/collabo_01.png		1	1	0	0	0	0		1	0	0
-6				2021-10-25 00:00:00	2122-01-17 14:00:00			0	3			21	50150	50000	1日1回限定　チャレンジダンジョン	243	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png	助っ人なし	0	3	14	0	0	0		1	0	0
+6				2021-10-25 00:00:00	2122-03-06 14:00:00			0	3			21	50151	50000	1日1回限定　チャレンジダンジョン	243	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png	助っ人なし	0	3	14	0	0	0		1	0	0
 1				2015-04-28 00:00:00	2914-08-19 12:08:00			0	5			12	60000	60000	極限任務ストーリーズ　監獄島を攻略せよ	1009	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/limit_6.png		0	0	4	2	0	0		1	0	0
 1				2015-04-28 00:00:00	2914-08-19 12:08:00			0	5			12	60001	60000	極限任務ストーリーズ　無限害虫迎撃戦	1010	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	80xteaDP.png	0	images/dungeonbanner/select/limit_7.png		0	0	4	2	0	0		1	0	0
-6				2022-12-28 00:00:00	2122-01-17 14:00:00			0	3			21	70001	70000	1日1回限定　EXダンジョン	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png	助っ人なし	0	3	14	0	0	0		1	0	0
+6				2022-12-28 00:00:00	2122-03-06 14:00:00			0	3			21	70002	70000	1日1回限定　EXダンジョン	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png	助っ人なし	0	3	14	0	0	0		1	0	0
 1				2020-10-20 00:00:00	2020-11-02 13:59:59			0	2			0	200000	20000	公式生放送チャレンジ	1250	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nikoniko11.png	　　　　　　　　　　　　　　　　　 　　　※生放送級のみ助っ人なし	0	0	0	0	0	0		1	0	0
 1				2023-01-22 00:00:00	2023-02-06 13:59:59			0	9			0	200017	20004	8周年　生放送版	107	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/ancient_11.png	　　　　　　　　　　　　　　　　　　　　※助っ人なし	0	0	0	0	0	0		1	0	0
 1				2016-04-01 00:00:00	2914-04-13 23:59:59			0	1			6	300000	300000	任務1　襲来、古代害虫	1	0	dungeon_012	0	0	1	1	1	1	1	1	images/dungeonbanner	300000.png	0	images/dungeonbanner/select/whale_01.png		0	0	19	0	0	0		1	0	0
