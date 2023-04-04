@@ -9,3 +9,6 @@ private/
 *.log
 test/
 test.*
+
+asset/stand
+ng
