@@ -69,7 +69,8 @@
 								0	1			25	400	100003	第四部 序章　千年騎士団	1	401	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_1.png		0	0	76	0	0	1		1	0	0
 								0	1			25	401	100003	第四部 任務1　夢見る花の見る夢	2	402	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_1.png		0	0	76	0	0	1		1	0	0
 								0	1			25	402	100003	第四部 任務2　翳らない希望	3	403	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_11.png		0	0	76	0	0	1		1	0	0
-								0	1			25	403	100003	第四部 任務3　封聖封魔の後継者	3	0	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_4.png		0	0	76	0	0	1		1	0	0
+								0	1			25	403	100003	第四部 任務3　封聖封魔の後継者	3	404	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_4.png		0	0	76	0	0	1		1	0	0
+								0	1			25	404	100003	第四部 任務4　旅立ちの日	3	0	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_32.png		0	0	76	0	0	1		1	0	0
 1				2014-08-19 12:09:00	2914-08-19 12:08:00			0	2			0	1010	14	常設任務　ざくざくゴールドラッシュ	8	10000	dungeon_012	0	0	60	50	50	0	0	3	images/dungeonbanner	001006.png	0	images/dungeonbanner/select/week_6.png		0	0	17	0	0	0		1	0	0
 1				2017-05-02 00:00:00	2017-05-02 23:59:59			0	2			0	1016	27	火曜特別任務　もりもりゴールドブースト	1000	10000	dungeon_012	0	0	50	2	2	0	0	3	images/dungeonbanner	001008.png	0	images/dungeonbanner/select/week_8.png		0	0	0	0	0	0		1	0	0
 1				2017-05-03 00:00:00	2017-05-03 23:59:59			0	2			0	1017	28	水曜特別任務　もりもりゴールドブースト	1000	10000	dungeon_012	0	0	50	2	2	0	0	3	images/dungeonbanner	001008.png	0	images/dungeonbanner/select/week_8.png		0	0	0	0	0	0		1	0	0
@@ -259,6 +260,7 @@
 6				2022-12-24 00:00:00	2022-12-25 23:59:59			0	2			0	1209	10118	聖夜の1日7回 アンプルゥ・上 ダンジョン	1275	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0
 6				2023-01-24 00:00:00	2023-02-05 23:59:59			0	2			0	1210	10119	8周年記念！1日8回 アンプルゥ・上 ダンジョン	1276	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0
 1				2023-04-03 00:00:00	2023-04-17 14:00:00			0	3			21	5180	1027	緊急任務　スリリング★バニーズ！	280	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png		0	1	0	0	0	0		1	0	0
+6				2023-04-10 00:00:00	2023-04-17 14:00:00			0	3			21	5181	1028	1日7回限定　緊急任務ダンジョン	281	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png		0	3	0	0	0	0		1	0	0
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6000	6000	月曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	inKnpTOM0L.png	0	images/dungeonbanner/select/limit_1.png		0	0	4	2	0	0		1	0	0
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6010	6010	火曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	0hgf0RILb6.png	0	images/dungeonbanner/select/limit_2.png		0	0	4	2	0	0		1	0	0
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6020	6020	木曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	ysjtzyMTtK.png	0	images/dungeonbanner/select/limit_3.png		0	0	4	2	0	0		1	0	0
@@ -1043,7 +1045,7 @@
 1				2022-04-14 00:00:00	2022-04-27 23:59:59			0	3		1628	0	14710	1628	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
 1				2022-04-28 00:00:00	2022-05-11 23:59:59			0	3		1629	0	14711	1629	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
 1				2022-05-12 00:00:00	2022-05-25 23:59:59			0	3		1630	0	14712	1630	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
-1				2022-05-26 00:00:00	2022-06-08 23:59:59			0	3		1631	0	14713	1631	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2022-05-26 00:00:00	2023-04-04 00:00:00			0	3		1631	0	14713	1631	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
 1				2022-06-09 00:00:00	2022-06-22 23:59:59			0	3		1632	0	14714	1632	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
 1				2022-06-23 00:00:00	2022-07-06 23:59:59			0	3		1633	0	14715	1633	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
 1				2022-07-07 00:00:00	2022-07-20 23:59:59			0	3		1634	0	14716	1634	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
@@ -1066,6 +1068,16 @@
 1				2023-03-02 00:00:00	2023-03-15 23:59:59			0	3		1651	0	14733	1651	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
 1				2023-03-16 00:00:00	2023-03-29 23:59:59			0	3		1652	0	14734	1652	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
 1				2023-03-30 00:00:00	2023-04-12 23:59:59			0	3		1653	0	14735	1653	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-04-13 00:00:00	2023-04-26 23:59:59			0	3		1654	0	14736	1654	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-04-27 00:00:00	2023-05-10 23:59:59			0	3		1655	0	14737	1655	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-05-11 00:00:00	2023-05-24 23:59:59			0	3		1656	0	14738	1656	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-05-25 00:00:00	2023-06-07 23:59:59			0	3		1657	0	14739	1657	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-06-08 00:00:00	2023-06-21 23:59:59			0	3		1658	0	14740	1658	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-06-22 00:00:00	2023-07-05 23:59:59			0	3		1659	0	14741	1659	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-07-06 00:00:00	2023-07-19 23:59:59			0	3		1660	0	14742	1660	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-07-20 00:00:00	2023-08-02 23:59:59			0	3		1661	0	14743	1661	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-08-03 00:00:00	2023-08-16 23:59:59			0	3		1662	0	14744	1662	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
+1				2023-08-17 00:00:00	2023-08-30 23:59:59			0	3		1663	0	14745	1663	常設復刻イベント	241	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/common_reprint.png		0	0	6	1	0	0		1	0	0
 1				2016-04-09 00:00:00	2914-08-19 12:08:00			0	3		500	20	23000	500	再復刻任務　滅びの都市ブレーメン(前半)	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_1.png		0	0	7	1	0	0		1	0	0
 1				2016-04-09 00:00:00	2914-08-19 12:08:00			0	3		500	20	23001	501	再復刻任務　滅びの都市ブレーメン(後半)	2	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_1.png		0	0	7	1	0	0		1	0	0
 1				2016-04-25 00:00:00	2914-08-19 12:08:00			0	3		502	20	23010	502	再復刻任務　尊い想い出のために(前半)	3	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_2.png		0	0	7	1	0	0		1	0	0
