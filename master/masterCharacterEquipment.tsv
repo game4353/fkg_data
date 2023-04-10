@@ -1,3 +1,4 @@
+MasterEquipID	name	iMasterItemID	MasterEquipHP	MasterEquipOffense	MasterEquipDefense	MasterEquipSpeed	MasterMaxEquipOffense	MasterMaxEquipDefense	iSell	MasterEquipEffectID	MasterEquipEffectValueA	MasterEquipEffectValueB	MasterEquipEffectValueC	MasterEquipEffect2ID	MasterEquipEffect2ValueA	MasterEquipEffect2ValueB	MasterEquipEffect2ValueC	MasterEquipCategoryID	MasterEquipExclusiveTypeID	MasterEquipExclusiveValue	MasterCharacterEquipmentLevelGroupId	MasterAvailableSynthesisBaseFlag	MasterEquipSynthesisMaterialFlag	MasterEquipDescription	MasterEquipmentPlus	EvolveEquipmentId	MasterEquipmentEvolveId	MasterMaxEvolveFlag	WorldFlowerPowerType	EquipmentType	EffectType
 1	力の指輪	300001	0	50	0	0	108	0	100	0	0	0	0	0	0	0	0	1	0		3	1	0		0	0	0	1	0	10	0
 2	力の指輪+1	300002	0	75	0	0	133	0	100	0	0	0	0	0	0	0	0	1	0		3	1	0		1	0	0	1	0	10	0
 3	力の指輪+2	300003	0	100	0	0	158	0	100	0	0	0	0	0	0	0	0	1	0		3	1	0		2	0	0	1	0	10	0

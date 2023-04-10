@@ -161,7 +161,6 @@ export const HEADERS = {
         'MasterEquipEffect2ValueA',
         'MasterEquipEffect2ValueB',
         'MasterEquipEffect2ValueC',
-        '0x12',
         'MasterEquipCategoryID',
         'MasterEquipExclusiveTypeID',
         'MasterEquipExclusiveValue',
