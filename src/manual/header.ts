@@ -56,92 +56,84 @@ export const HEADERS = {
   ],
   // search "['MasterCharacterBookData']" and go up find 'parse'
   masterCharacterBook: [
-    '_enableFlag',
-    '_enableValue',
-    '_bookId',
-    '_name',
-    '_bookNum',
-    '_languageOfFlower',
-    '_secondSceneOpenFlag',
-    '_secondDateSceneOpenFlag',
-    '_heartFlag',
-    '0x9', // timestamp
-    '0xa', // timestamp
-    '_deleteFlag',
-    '0xc' // 
+    '_enableFlag', // 0x00
+    '_enableValue', // 0x01
+    '_bookId', // 0x02
+    '_name', // 0x03
+    '_bookNum', // 0x04
+    '_languageOfFlower', // 0x05
+    '_secondSceneOpenFlag', // 0x06
+    '_secondDateSceneOpenFlag', // 0x07
+    '_heartFlag', // 0x08
   ],
   // search "['MasterCharacterData']();" and go down
   masterCharacter: [
-    'MasterCharacterID',
-    'ItemID',
-    'BreedID',
-    'NationId',
-    'MasterCharacterNum',
-    'Nickname',
-    'SelfIntroduction',
-    'Rarity',
-    'Material',
-    'MasterGiftGroupID',
-    'AbilityID1',
-    'AbilityID2',
-    'AbilityID3',
-    'AbilityID4',
-    'AbilityID5',
-    'AbilityID6',
-    'AbilityID7',
-    'AbilityID8',
-    'AbilityID9',
-    'BattleSkillID',
-    'BattleSkillID2',
-    '0x15', // 
-    'HPisLV1',
-    'HPisLV99',
-    'OffenseisLV1',
-    'OffenseisLV99',
-    'DefenseisLV1',
-    'DefenseisLV99',
-    'SpeedisLV1',
-    'SpeedisLV99',
-    'maxHitPointBonus',
-    'maxAttackBonus',
-    'maxDefenseBonus',
-    'secondMaxHitPointBonus',
-    'secondMaxAttackBonus',
-    'secondMaxDefenseBonus',
-    'SaleGameMoney',
-    'MasterCharacterLVGroup',
-    'MasterCharacterSecondLVGroup',
-    'EvolveCharacterId',
-    'MaxEvolveFlag',
-    'PartySetEnableFlag',
-    'FavorabilityBonusHitPoint',
-    'FavorabilityBonusOffense',
-    'FavorabilityBonusDefense',
-    'MasterCharacterBookID',
-    'MasterCharacterBookOrderNum',
-    'FavorabilityEnable',
-    'favorabilitySecondBonusHitPoint',
-    'favorabilitySecondBonusOffense',
-    'favorabilitySecondBonusDefense',
-    'favorabilitySecondEnableFlag',
-    'FloweringCharacterID',
-    'MaxFloweringFlag',
-    'FloweringEnableFlag',
-    'Fullname',
-    'OnlyPerformanceFloweringEnableFlag',
-    'dressName',
-    'readingCharacterName',
-    'samePersonId',
-    'isImportant',
-    'isEventCharacter',
-    'createDate',
-    '0x3f', //
-    '0x40', //
-    'swfVersion',
-    'rarityEvolutionTypeId',
-    'MaxRarityGlowFlag',
-    'RarityGlowEnableFlag',
-    'specialCharacterType'
+    'MasterCharacterID', // 0x00
+    'ItemID', // 0x01
+    'BreedID', // 0x02
+    'NationId', // 0x03
+    'MasterCharacterNum', // 0x04
+    'Nickname', // 0x05
+    'Rarity', // 0x06
+    'Material', // 0x07
+    'MasterGiftGroupID', // 0x08
+    'AbilityID1', // 0x09
+    'AbilityID2', // 0x0a
+    'AbilityID3', // 0x0b
+    'AbilityID4', // 0x0c
+    'AbilityID5', // 0x0d
+    'AbilityID6', // 0x0e
+    'AbilityID7', // 0x0f
+    'AbilityID8', // 0x10
+    'AbilityID9', // 0x11
+    'BattleSkillID', // 0x12
+    'BattleSkillID2', // 0x13
+    'HPisLV1', // 0x14
+    'HPisLV99', // 0x15
+    'OffenseisLV1', // 0x16
+    'OffenseisLV99', // 0x17
+    'DefenseisLV1', // 0x18
+    'DefenseisLV99', // 0x19
+    'SpeedisLV1', // 0x1a
+    'SpeedisLV99', // 0x1b
+    'maxHitPointBonus', // 0x1c
+    'maxAttackBonus', // 0x1d
+    'maxDefenseBonus', // 0x1e
+    'secondMaxHitPointBonus', // 0x1f
+    'secondMaxAttackBonus', // 0x20
+    'secondMaxDefenseBonus', // 0x21
+    'SaleGameMoney', // 0x22
+    'MasterCharacterLVGroup', // 0x23
+    'MasterCharacterSecondLVGroup', // 0x24
+    'EvolveCharacterId', // 0x25
+    'MaxEvolveFlag', // 0x26
+    'PartySetEnableFlag', // 0x27
+    'FavorabilityBonusHitPoint', // 0x28
+    'FavorabilityBonusOffense', // 0x29
+    'FavorabilityBonusDefense', // 0x2a
+    'MasterCharacterBookID', // 0x2b
+    'MasterCharacterBookOrderNum', // 0x2c
+    'FavorabilityEnable', // 0x2d
+    'favorabilitySecondBonusHitPoint', // 0x2e
+    'favorabilitySecondBonusOffense', // 0x2f
+    'favorabilitySecondBonusDefense', // 0x30
+    'favorabilitySecondEnableFlag', // 0x31
+    'FloweringCharacterID', // 0x32
+    'MaxFloweringFlag', // 0x33
+    'FloweringEnableFlag', // 0x34
+    'Fullname', // 0x35
+    'OnlyPerformanceFloweringEnableFlag', // 0x36
+    'dressName', // 0x37
+    'readingCharacterName', // 0x38
+    'samePersonId', // 0x39
+    'isImportant', // 0x3a
+    'isEventCharacter', // 0x3b
+    'createDate', // 0x3c
+    'swfVersion', // 0x3d
+    'rarityEvolutionTypeId', // 0x3e
+    'MaxRarityGlowFlag', // 0x3f
+    'RarityGlowEnableFlag', // 0x40
+    'specialCharacterType' // 0x41
   ],
   // search "'masterCharacterEquipment'" and go down
   masterCharacterEquipment: [

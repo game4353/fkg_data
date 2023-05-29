@@ -62,11 +62,7 @@ export const HEADERS = {
         '_languageOfFlower',
         '_secondSceneOpenFlag',
         '_secondDateSceneOpenFlag',
-        '_heartFlag',
-        '0x9',
-        '0xa',
-        '_deleteFlag',
-        '0xc' // 
+        '_heartFlag', // 0x08
     ],
     // search "['MasterCharacterData']();" and go down
     masterCharacter: [
@@ -76,7 +72,6 @@ export const HEADERS = {
         'NationId',
         'MasterCharacterNum',
         'Nickname',
-        'SelfIntroduction',
         'Rarity',
         'Material',
         'MasterGiftGroupID',
@@ -91,7 +86,6 @@ export const HEADERS = {
         'AbilityID9',
         'BattleSkillID',
         'BattleSkillID2',
-        '0x15',
         'HPisLV1',
         'HPisLV99',
         'OffenseisLV1',
@@ -133,13 +127,11 @@ export const HEADERS = {
         'isImportant',
         'isEventCharacter',
         'createDate',
-        '0x3f',
-        '0x40',
         'swfVersion',
         'rarityEvolutionTypeId',
         'MaxRarityGlowFlag',
         'RarityGlowEnableFlag',
-        'specialCharacterType'
+        'specialCharacterType' // 0x41
     ],
     // search "'masterCharacterEquipment'" and go down
     masterCharacterEquipment: [
