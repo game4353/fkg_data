@@ -4120,6 +4120,11 @@
 470010	第二話　すれちがう気持ち	470000	10	1	470020	0	stage_map_05500	470010	46	0	0	0	fkg_bgm_stage062	470010	battlebg_0080						battlebg_0250	0	0	0	80000		0	0			18	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	0	0	0	
 470020	第三話　わたしたちの絆	470000	10	1	0	0	stage_map_00021	470020	46	0	0	0	fkg_bgm_stage004	470020	battlebg_0003						battlebg_0250	0	0	0	80000		0	0			18	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	0	0	0	
 470100	第一話　天変地異と伝説	470100	10	1	0	0	stage_map_01310	470100	46	0	0	0	fkg_bgm_stage004	470100	battlebg_0013						battlebg_0250	0	0	0	80000		0	0			18	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	0	0	0	
+490000	一話　世界のどこかで	490000	45	1	490010	0	stage_map_02906	490000	550	250	25	0	fkg_bgm_country_winterrose001	490000	battlebg_0004						battlebg_0004	0	0	0	250000		0	0			1	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	0	0	0	
+490010	二話　ウィンの大作戦	490000	45	2	490020	0	stage_map_02904	490010	550	250	25	0	fkg_bgm_country_winterrose001	490010	battlebg_0258						battlebg_0258	0	0	0	250000		0	0			1	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	0	0	0	
+490020	三話　人の子よ……	490000	45	3	490030	0	stage_map_02905	490020	550	250	25	0	fkg_bgm_country_winterrose001	490020	battlebg_0258						battlebg_0258	0	0	0	250000		0	0			1	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	0	0	0	
+490030	四話　なりたい、なれない	490000	45	4	490040	0	stage_map_13205	490030	550	250	25	0	fkg_bgm_stage003	490030	battlebg_0108						battlebg_0108	0	0	0	300000		0	0			1	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	0	0	0	
+490040	五話　その感情の名前は	490000	45	5	0	0	stage_map_02909	490040	550	250	25	0	fkg_bgm_stage078	490040	battlebg_0004						battlebg_0004	0	0	0	250000		0	0			1	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	0	0	0	
 700100	初級	500010	8	1	0	0	stage_map_06807	700100	88	535	4	0	fkg_bgm_nidhogg_general001	0	battlebg_0111						battlebg_0111	240	0	0	30000		0	0			9	0	1	0	0	0	0			0	0	0	event_map_spark		nidhogg_4_beginner	3	0		0	0	0	0	0	0	0	0	0	0	0	
 700101	初級【有利スキル:単体】	500010	15	1	0	0	stage_map_06807	700101	165	1000	6	0	fkg_bgm_nidhogg_general001	0	battlebg_0111						battlebg_0111	240	0	0	55000		0	700000			18	0	1	0	0	0	0			0	0	0	event_map_spark		nidhogg_3	3	0		0	0	0	0	0	0	0	0	0	0	0	
 700102	初級【有利スキル:2体&複数回】	500010	15	1	0	0	stage_map_06807	700102	165	1000	6	0	fkg_bgm_nidhogg_general001	0	battlebg_0111						battlebg_0111	240	0	0	55000		0	700040			18	0	1	0	0	0	0			0	0	0	event_map_spark		nidhogg_5	3	0		0	0	0	0	0	0	0	0	0	0	0	
