@@ -71,7 +71,8 @@
 								0	1			25	402	100003	第四部 任務2　翳らない希望	3	403	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_11.png		0	0	76	0	0	1		1	0	0
 								0	1			25	403	100003	第四部 任務3　封聖封魔の後継者	3	404	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_4.png		0	0	76	0	0	1		1	0	0
 								0	1			25	404	100003	第四部 任務4　旅立ちの日	3	405	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_32.png		0	0	76	0	0	1		1	0	0
-								0	1			25	405	100003	第四部 任務5　陽炎の使徒	3	0	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_139.png		0	0	76	0	0	1		1	0	0
+								0	1			25	405	100003	第四部 任務5　陽炎の使徒	3	406	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_139.png		0	0	76	0	0	1		1	0	0
+								0	1			25	406	100003	第四部 任務6　掴み取る未来	3	0	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_5.png		0	0	76	0	0	1		1	0	0
 1				2014-08-19 12:09:00	2914-08-19 12:08:00			0	2			0	1010	14	常設任務　ざくざくゴールドラッシュ	8	10000	dungeon_012	0	0	60	50	50	0	0	3	images/dungeonbanner	001006.png	0	images/dungeonbanner/select/week_6.png		0	0	17	0	0	0		1	0	0
 1				2017-05-02 00:00:00	2017-05-02 23:59:59			0	2			0	1016	27	火曜特別任務　もりもりゴールドブースト	1000	10000	dungeon_012	0	0	50	2	2	0	0	3	images/dungeonbanner	001008.png	0	images/dungeonbanner/select/week_8.png		0	0	0	0	0	0		1	0	0
 1				2017-05-03 00:00:00	2017-05-03 23:59:59			0	2			0	1017	28	水曜特別任務　もりもりゴールドブースト	1000	10000	dungeon_012	0	0	50	2	2	0	0	3	images/dungeonbanner	001008.png	0	images/dungeonbanner/select/week_8.png		0	0	0	0	0	0		1	0	0
@@ -1364,8 +1365,6 @@
 1				2023-04-12 00:00:00	2030-04-12 00:00:00			0	10		0	0	500113	500113	炎熱の迷宮　最後の心門	4	500114	dungeon_012	0	701140	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png	助っ人なし	0	0	0	0	0	0		1	0	0
 1				2023-04-12 00:00:00	2030-04-12 00:00:00			0	10		0	0	500114	500114	炎熱の迷宮　紅蓮の神蟲核	5	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png	助っ人なし	0	0	0	0	0	0		1	0	0
 1				2023-04-12 00:00:00	2030-04-12 00:00:00			0	10		0	0	500115	500115	奇種の暗腔	6	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nidhogg_19.png	助っ人なし	0	0	0	0	0	0		1	0	0
-1				2022-02-28 00:00:00	2022-03-22 14:30:00			0	8			2	510008	510008	不滅と黄昏の支配者 ノーマル	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png		0	0	0	0	0	0		1	5	0
-1				2022-02-28 00:00:00	2022-03-22 14:30:00			0	8			2	510009	510009	不滅と黄昏の支配者  ハード	2	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png		0	0	0	0	0	0		1	5	0
 1				2019-08-19 00:00:00	2914-08-19 12:08:00			0	2			17	700000	700000	メモリーダンジョン　第一弾	1220	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/fm_02.png		0	0	0	1	0	0		1	0	0
 1				2019-08-19 00:00:00	2914-08-19 12:08:00			0	2			17	700001	700001	メモリーダンジョン　コンセプトステージ	1221	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/fm_03.png	ステージごとにおすすめ編成あり	0	0	0	0	0	0		1	0	0
 1				2020-02-18 00:00:00	2020-03-02 14:00:00			0	2			0	700002	700002	お得なメモリーダンジョン	1222	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/value_memory_01.png		0	0	34	2	0	0		1	0	0
