@@ -261,7 +261,7 @@
 6				2022-08-02 00:00:00	2022-08-14 23:59:59			0	2			0	1208	10117	7.5周年記念！1日7回 アンプルゥ・上 ダンジョン	1274	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0
 6				2022-12-24 00:00:00	2022-12-25 23:59:59			0	2			0	1209	10118	聖夜の1日7回 アンプルゥ・上 ダンジョン	1275	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0
 6				2023-01-24 00:00:00	2023-02-05 23:59:59			0	2			0	1210	10119	8周年記念！1日8回 アンプルゥ・上 ダンジョン	1276	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/week_17.png		0	3	39	2	0	0		1	0	0
-1				2023-07-10 00:00:00	2023-07-24 14:00:00			2	3			21	5250	1035	緊急任務　手つなぎバカンス！	288	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png		0	1	0	0	0	0		1	0	0
+1				2023-07-24 00:00:00	2023-08-07 14:00:00			0	3			21	5260	1036	緊急任務　8.5周年人気投票！	289	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png		0	1	0	0	0	0		1	0	0
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6000	6000	月曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	inKnpTOM0L.png	0	images/dungeonbanner/select/limit_1.png		0	0	4	2	0	0		1	0	0
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6010	6010	火曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	0hgf0RILb6.png	0	images/dungeonbanner/select/limit_2.png		0	0	4	2	0	0		1	0	0
 2				2015-05-19 00:00:00	2914-08-19 12:08:00			0	2			0	6020	6020	木曜極限任務　選ばれし者の試練	501	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	ysjtzyMTtK.png	0	images/dungeonbanner/select/limit_3.png		0	0	4	2	0	0		1	0	0
@@ -882,7 +882,7 @@
 1				2021-10-20 00:00:00	2914-08-19 12:08:00			0	3		3000	20	24211	3001	再復刻任務　ビーチ・ウォーズ！(後半)	238	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_118.png		0	0	7	1	0	0		1	0	0
 1				2021-10-20 00:00:00	2914-08-19 12:08:00			0	3		3002	20	24220	3002	再復刻任務　真夏のマリンクルーズ(前半)	239	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_119.png		0	0	7	1	0	0		1	0	0
 1				2021-10-20 00:00:00	2914-08-19 12:08:00			0	3		3002	20	24221	3003	再復刻任務　真夏のマリンクルーズ(後半)	240	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/reprint_119.png		0	0	7	1	0	0		1	0	0
-1				2017-03-13 00:00:00	2122-03-06 14:00:00			0	3			21	30161	30000	チャレンジダンジョン	242	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_258.png		0	2	14	2	0	0		1	0	0
+1				2017-03-13 00:00:00	2122-03-06 14:00:00			0	3			21	30162	30000	チャレンジダンジョン	242	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_258.png		0	2	14	2	0	0		1	0	0
 1				2017-11-20 00:00:00	2104-08-19 12:08:00			0	9			0	31000	31000	特別ガイドダンジョン	3	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/secret_1.png		0	2	14	2	0	0		1	0	0
 1				2018-09-13 00:00:00	2018-09-19 23:59:59			0	3			0	32000	32000	ウィークリー特別任務	10	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/weekly_1.png		0	100	27	0	0	0		1	0	0
 1				2018-09-20 00:00:00	2018-09-26 23:59:59			0	3			0	32001	32001	ウィークリー特別任務	10	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/weekly_1.png		0	100	27	0	0	0		1	0	0
@@ -1055,10 +1055,10 @@
 1				2019-01-10 00:00:00	2019-03-11 14:00:00			0	3			0	41000	41000	メダルがいっぱい！	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/collabo_01.png		1	1	0	0	0	0		1	0	0
 1				2019-01-10 00:00:00	2019-03-11 14:00:00			0	3			0	41001	41001	メダルがいっぱい！	2	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/collabo_01.png		1	1	0	0	0	0		1	0	0
 1				2019-01-10 00:00:00	2019-03-11 14:00:00			0	3			0	41002	41002	メダルがいっぱい！	3	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/collabo_01.png		1	1	0	0	0	0		1	0	0
-6				2021-10-25 00:00:00	2122-03-06 14:00:00			0	3			21	50163	50000	1日1回限定　チャレンジダンジョン	243	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png	助っ人なし	0	3	14	0	0	0		1	0	0
+6				2021-10-25 00:00:00	2122-03-06 14:00:00			0	3			21	50164	50000	1日1回限定　チャレンジダンジョン	243	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png	助っ人なし	0	3	14	0	0	0		1	0	0
 1				2015-04-28 00:00:00	2914-08-19 12:08:00			0	5			12	60000	60000	極限任務ストーリーズ　監獄島を攻略せよ	1009	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/limit_6.png		0	0	4	2	0	0		1	0	0
 1				2015-04-28 00:00:00	2914-08-19 12:08:00			0	5			12	60001	60000	極限任務ストーリーズ　無限害虫迎撃戦	1010	0	dungeon_012	0	0	0	3	3	2	0	3	images/dungeonbanner	80xteaDP.png	0	images/dungeonbanner/select/limit_7.png		0	0	4	2	0	0		1	0	0
-6				2022-12-28 00:00:00	2122-03-06 14:00:00			0	3			21	70012	70000	EXダンジョン	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png	助っ人なし	0	1	0	0	0	0		1	0	2
+6				2022-12-28 00:00:00	2122-03-06 14:00:00			0	3			21	70013	70000	EXダンジョン	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_257.png	助っ人なし	0	1	0	0	0	0		1	0	2
 1				2023-05-22 00:00:00	2023-05-29 14:00:00			0	3		111000	27	111000	111000	特大経験値獲得！？リリース100ヶ月記念ダンジョン	250	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/100MonthEvent_naidohogul1.png		0	0	0	1	0	0		1	0	0
 6				2023-07-07 17:00:00	2023-07-20 23:59:59			0	3		111100	29	111100	111100	大量経験値獲得！1日1回くまさんダンジョン	251	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_2.png		0	3	0	0	0	0		1	0	0
 1				2020-10-20 00:00:00	2020-11-02 13:59:59			0	2			0	200000	20000	公式生放送チャレンジ	1250	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nikoniko11.png	　　　　　　　　　　　　　　　　　 　　　※生放送級のみ助っ人なし	0	0	0	0	0	0		1	0	0
@@ -1302,6 +1302,8 @@
 1				2023-02-21 00:00:00	2914-08-19 12:08:00			0	5			26	470000	470000	魔女の四姉妹	1100	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/bloomstory_1.png		0	0	10	0	0	0		1	0	0
 1				2023-02-21 00:00:00	2914-08-19 12:08:00			0	5			26	470100	470100	軍師と忍と月見の伝説	1101	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/bloomstory_2.png		0	0	10	0	0	0		1	0	0
 1				2023-06-19 00:00:00	2914-08-19 12:08:00			0	5			28	490000	490000	氷霜のリトル・ソーン	1200	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/sidestory_1.png		0	0	10	0	0	0		1	0	0
+1				2023-07-24 00:00:00	2914-08-19 12:08:00			0	5			28	490100	490100	惑い火より出づる神	1201	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/sidestory_2.png		0	0	10	0	0	0		1	0	0
+1				2023-07-20 00:00:00	2100-01-01 00:00:01			0	4			30	495000	495000	VS炎熱と宵闇の騎士	1100	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/8.5_Anniversary_Live_nidhogg_s.png	助っ人なし	0	0	0	0	0	0		1	0	0
 1				2018-05-02 00:00:00	2018-05-14 14:00:00			0	6		0	0	500010	500010	炎熱の迷宮　黒龍脈	1	500011	dungeon_012	0	700010	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png		0	0	0	0	0	0		0	0	0
 1				2018-05-02 00:00:00	2018-05-14 14:00:00			0	6		0	0	500011	500011	炎熱の迷宮　怒れる闇腑	2	500012	dungeon_012	0	700020	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png		0	0	0	0	0	0		0	0	0
 1				2018-05-02 00:00:00	2018-05-14 14:00:00			0	6		0	0	500012	500012	炎熱の迷宮　燃え盛る炎管	3	500013	dungeon_012	0	700030	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png	助っ人なし	0	0	0	0	0	0		0	0	0
@@ -1365,6 +1367,8 @@
 1				2023-04-12 00:00:00	2030-04-12 00:00:00			0	10		0	0	500113	500113	炎熱の迷宮　最後の心門	4	500114	dungeon_012	0	701140	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png	助っ人なし	0	0	0	0	0	0		1	0	0
 1				2023-04-12 00:00:00	2030-04-12 00:00:00			0	10		0	0	500114	500114	炎熱の迷宮　紅蓮の神蟲核	5	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png	助っ人なし	0	0	0	0	0	0		1	0	0
 1				2023-04-12 00:00:00	2030-04-12 00:00:00			0	10		0	0	500115	500115	奇種の暗腔	6	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nidhogg_19.png	助っ人なし	0	0	0	0	0	0		1	0	0
+1				2023-07-06 00:00:00	2100-01-01 00:00:00			0	8			2	510010	510010	不滅と黄昏の支配者 ノーマル	1	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png		0	0	0	0	0	0		1	0	0
+1				2023-07-06 00:00:00	2100-01-01 00:00:00			0	8			2	510011	510011	不滅と黄昏の支配者  ハード	2	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/lotus_ex.png		0	0	0	0	0	0		1	0	0
 1				2019-08-19 00:00:00	2914-08-19 12:08:00			0	2			17	700000	700000	メモリーダンジョン　第一弾	1220	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/fm_02.png		0	0	0	1	0	0		1	0	0
 1				2019-08-19 00:00:00	2914-08-19 12:08:00			0	2			17	700001	700001	メモリーダンジョン　コンセプトステージ	1221	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/fm_03.png	ステージごとにおすすめ編成あり	0	0	0	0	0	0		1	0	0
 1				2020-02-18 00:00:00	2020-03-02 14:00:00			0	2			0	700002	700002	お得なメモリーダンジョン	1222	0	dungeon_012	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/value_memory_01.png		0	0	34	2	0	0		1	0	0
