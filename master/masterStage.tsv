@@ -4491,7 +4491,7 @@
 711029	精霊の花	510010	50	109	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	406	0	0	5000		4	0			0	0	0	0	0	0	0			0	0	0				2	0		0	0	0	0	0	0	0	1	0	0	0	
 711030	精霊の花	510010	50	110	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	406	0	0	5000		4	0			0	0	0	0	0	0	0			0	0	0				3	0		0	0	0	0	0	0	0	1	0	0	0	
 711031	採光地点	510010	50	111	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	7	0	0	5000		4	0			0	0	0	0	0	0	0			0	0	0				4	0		0	0	0	0	0	0	0	1	0	0	0	
-711100		510010	50	112	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	407	0	0	350000		4	0			107	0	0	0	0	0	0			0	0	0				6	0		0	0	0	0	0	0	0	1	0	0	0	
+711100	根源の世界花ラスボス	510010	80	112	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	407	0	0	650000		4	0			107	0	0	0	0	0	0			0	0	0				6	0		0	0	0	0	0	0	0	1	0	0	0	
 711200	隠された場所	510010	10	113	0	0	stage_map_08904	0	115	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0136						battlebg_0136	407	0	0	5000		4	0			14	0	0	0	0	0	0			0	0	0				1	0		0	0	0	0	0	0	0	1	0	0	0	
 711201	隠された場所	510010	20	114	0	0	stage_map_11604	0	226	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0176						battlebg_0176	407	0	0	5000		4	0			30	0	0	0	0	0	0			0	0	0				2	0		0	0	0	0	0	0	0	1	0	0	0	
 711202	隠された場所	510010	30	115	0	0	stage_map_11604	0	336	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0176						battlebg_0176	407	0	0	5000		4	0			46	0	0	0	0	0	0			0	0	0				3	0		0	0	0	0	0	0	0	1	0	0	0	
@@ -4606,7 +4606,7 @@
 1710910	強敵戦闘	510011	50	120	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	407	0	0	680000		4	0			107	0	0	0	0	0	0			0	0	0				7	0		0	0	0	0	0	0	0	1	0	0	0	
 1710911	強敵戦闘	510011	50	121	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	407	0	0	680000		4	0			107	0	0	0	0	0	0			0	0	0				7	0		0	0	0	0	0	0	0	1	0	0	0	
 1710912	VS BOSS	510011	50	122	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	407	0	0	680000		4	0			107	0	0	0	0	0	0			0	0	0				1	0		0	0	0	0	0	0	0	1	0	0	0	
-1711100		510011	50	123	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	407	0	0	680000		4	0			107	0	0	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	1	0	0	0	
+1711100	根源の世界花ラスボス	510011	80	123	0	0	stage_map_11800	0	360	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0178						battlebg_0178	407	0	0	900000		4	0			107	0	0	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	1	0	0	0	
 1711200	隠された場所	510011	10	124	0	0	stage_map_08902	0	115	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0136						battlebg_0136	407	0	0	5000		4	0			14	0	0	0	0	0	0			0	0	0				1	0		0	0	0	0	0	0	0	1	0	0	0	
 1711201	隠された場所	510011	20	125	0	0	stage_map_11612	0	226	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0176						battlebg_0176	407	0	0	5000		4	0			30	0	0	0	0	0	0			0	0	0				2	0		0	0	0	0	0	0	0	1	0	0	0	
 1711202	隠された場所	510011	30	126	0	0	stage_map_11612	0	336	0	0	0	fkg_bgm_Midzwolm_general001	0	battlebg_0176						battlebg_0176	407	0	0	5000		4	0			46	0	0	0	0	0	0			0	0	0				3	0		0	0	0	0	0	0	0	1	0	0	0	
@@ -4653,3 +4653,5 @@
 727006	毎月7日or27日はナズナの日！虹の昇華石ステージ	727006	7	1	0	0	stage_map_00513	727006	27	7	27	0	fkg_bgm_stage080	727006	battlebg_0042						battlebg_0250	0	0	0	30000		0	0			7	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	1	7	27	
 727007	毎月7日or27日はナズナの日！虹の昇華石ステージ	727007	7	1	0	0	stage_map_00513	727007	27	7	27	0	fkg_bgm_stage080	727007	battlebg_0042						battlebg_0250	0	0	0	30000		0	0			7	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	1	7	27	
 727008	毎月7日or27日はナズナの日！虹の昇華石ステージ	727008	7	1	0	0	stage_map_00513	727008	27	7	27	0	fkg_bgm_stage080	727008	battlebg_0042						battlebg_0250	0	0	0	30000		0	0			7	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	1	7	27	
+727009	毎月7日or27日はナズナの日！虹の昇華石ステージ	727009	7	1	0	0	stage_map_00513	727009	27	7	27	0	fkg_bgm_stage080	727009	battlebg_0042						battlebg_0250	0	0	0	30000		0	0			7	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	1	7	27	
+727010	毎月7日or27日はナズナの日！虹の昇華石ステージ	727010	7	1	0	0	stage_map_00513	727010	27	7	27	0	fkg_bgm_stage080	727010	battlebg_0042						battlebg_0250	0	0	0	30000		0	0			7	0	1	0	0	0	0			0	0	0				0	0		0	0	0	0	0	0	0	0	1	7	27	
