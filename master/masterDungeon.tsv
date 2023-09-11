@@ -69,11 +69,12 @@
 								0	1			25	400	100003	第四部 序章　千年騎士団	1	401	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_1.png		0	0	76	0	0	1		1	0	0
 								0	1			25	401	100003	第四部 任務1　夢見る花の見る夢	2	402	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_1.png		0	0	76	0	0	1		1	0	0
 								0	1			25	402	100003	第四部 任務2　翳らない希望	3	403	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_11.png		0	0	76	0	0	1		1	0	0
-								0	1			25	403	100003	第四部 任務3　封聖封魔の後継者	3	404	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_4.png		0	0	76	0	0	1		1	0	0
-								0	1			25	404	100003	第四部 任務4　旅立ちの日	3	405	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_32.png		0	0	76	0	0	1		1	0	0
-								0	1			25	405	100003	第四部 任務5　陽炎の使徒	3	406	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_139.png		0	0	76	0	0	1		1	0	0
-								0	1			25	406	100003	第四部 任務6　掴み取る未来	3	407	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_5.png		0	0	76	0	0	1		1	0	0
-								0	1			25	407	100003	第四部 任務7　外の世界へ	3	0	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_6.png		0	0	76	0	0	1		1	0	0
+								0	1			25	403	100003	第四部 任務3　封聖封魔の後継者	4	404	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_4.png		0	0	76	0	0	1		1	0	0
+								0	1			25	404	100003	第四部 任務4　旅立ちの日	5	405	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_32.png		0	0	76	0	0	1		1	0	0
+								0	1			25	405	100003	第四部 任務5　陽炎の使徒	6	406	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_139.png		0	0	76	0	0	1		1	0	0
+								0	1			25	406	100003	第四部 任務6　掴み取る未来	7	407	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_5.png		0	0	76	0	0	1		1	0	0
+								0	1			25	407	100003	第四部 任務7　外の世界へ	8	408	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_6.png		0	0	76	0	0	1		1	0	0
+								0	1			25	408	100003	第四部 任務8　灼熱砂漠の民	9	0	dungeon_034	0	0	0	0	0	0	0	0			0	images/dungeonbanner/select/nomal_265.png		0	0	76	0	0	1		1	0	0
 1				2014-08-19 12:09:00	2914-08-19 12:08:00			0	2			0	1010	14	常設任務　ざくざくゴールドラッシュ	8	10000	dungeon_012	0	0	60	50	50	0	0	3	images/dungeonbanner	001006.png	0	images/dungeonbanner/select/week_6.png		0	0	17	0	0	0		1	0	0
 1				2017-05-02 00:00:00	2017-05-02 23:59:59			0	2			0	1016	27	火曜特別任務　もりもりゴールドブースト	1000	10000	dungeon_012	0	0	50	2	2	0	0	3	images/dungeonbanner	001008.png	0	images/dungeonbanner/select/week_8.png		0	0	0	0	0	0		1	0	0
 1				2017-05-03 00:00:00	2017-05-03 23:59:59			0	2			0	1017	28	水曜特別任務　もりもりゴールドブースト	1000	10000	dungeon_012	0	0	50	2	2	0	0	3	images/dungeonbanner	001008.png	0	images/dungeonbanner/select/week_8.png		0	0	0	0	0	0		1	0	0
