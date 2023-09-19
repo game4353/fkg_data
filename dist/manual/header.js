@@ -62,7 +62,8 @@ export const HEADERS = {
         '_languageOfFlower',
         '_secondSceneOpenFlag',
         '_secondDateSceneOpenFlag',
-        '_heartFlag', // 0x08
+        '_heartFlag',
+        '_specialDisplayFlag', //0x09
     ],
     // search "['MasterCharacterData']();" and go down
     masterCharacter: [
