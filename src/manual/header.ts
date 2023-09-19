@@ -65,6 +65,7 @@ export const HEADERS = {
     '_secondSceneOpenFlag', // 0x06
     '_secondDateSceneOpenFlag', // 0x07
     '_heartFlag', // 0x08
+    '_specialDisplayFlag', //0x09
   ],
   // search "['MasterCharacterData']();" and go down
   masterCharacter: [
