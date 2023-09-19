@@ -2439,6 +2439,10 @@
 2470	1	1039	学者の旅、研究の秋	images/album/dungeon/scenariobanner_224.png	5138	9429	1502400	四話　研究者の輪	227	2023-09-19 14:30:00	（２０２３/９/４～９/１９）	0
 2471	1	1039	学者の旅、研究の秋	images/album/dungeon/scenariobanner_224.png	5138	9430	1502400	五話　学者の旅、研究の秋	227	2023-09-19 14:30:00	（２０２３/９/４～９/１９）	0
 2472	1	1039	学者の旅、研究の秋	images/album/dungeon/scenariobanner_224.png	5138	9431	1502400	エピローグ	227	2023-09-19 14:30:00	（２０２３/９/４～９/１９）	0
+2473	1	1040	お月見うさぎと満月の宴	images/album/dungeon/scenariobanner_225.png	5139	20000	1502500	一話　友人のために	228	2023-10-02 14:30:00	（２０２３/９/１９～１０/２）	0
+2474	1	1040	お月見うさぎと満月の宴	images/album/dungeon/scenariobanner_225.png	5139	20001	1502500	二話　お月見伝説を語り継いで	228	2023-10-02 14:30:00	（２０２３/９/１９～１０/２）	0
+2475	1	1040	お月見うさぎと満月の宴	images/album/dungeon/scenariobanner_225.png	5139	20002	1502500	三話　うさ耳を敬う尊い儀式？	228	2023-10-02 14:30:00	（２０２３/９/１９～１０/２）	0
+2476	1	1040	お月見うさぎと満月の宴	images/album/dungeon/scenariobanner_225.png	5139	20003	1502500	四話　お月見うさぎと満月の宴	228	2023-10-02 14:30:00	（２０２３/９/１９～１０/２）	0
 10000	2	1	通常任務1	images/album/dungeon/mainscenariobanner_1.png	2	488	1001	一部 1-1 初仕事	1000			0
 10001	2	1	通常任務1	images/album/dungeon/mainscenariobanner_1.png	2	489	1002	一部 1-2 森を抜け山へ	999			0
 10002	2	1	通常任務1	images/album/dungeon/mainscenariobanner_1.png	2	490	1003	一部 1-3 分かれ道その先に	998			0
@@ -2894,3 +2898,8 @@
 10452	2	10003	通常任務8	images/album/dungeon/mainscenariobanner_75.png	408	9443	0	五話　灼熱砂漠道中記	1			0
 10453	2	10003	通常任務8	images/album/dungeon/mainscenariobanner_75.png	408	9444	0	六話　ミズゴケの迷宮	1			0
 10454	2	10003	通常任務8	images/album/dungeon/mainscenariobanner_75.png	408	9445	0	エピローグ	1			0
+10455	2	10003	通常任務8・5(サイドストーリー)	images/album/dungeon/mainscenariobanner_76.png	490200	30000	490200	一話　リコを調査せよ	1			0
+10456	2	10003	通常任務8・5(サイドストーリー)	images/album/dungeon/mainscenariobanner_76.png	490200	30001	490210	二話　道化師の実力	1			0
+10457	2	10003	通常任務8・5(サイドストーリー)	images/album/dungeon/mainscenariobanner_76.png	490200	30002	490220	三話　探り合い	1			0
+10458	2	10003	通常任務8・5(サイドストーリー)	images/album/dungeon/mainscenariobanner_76.png	490200	30003	490230	四話　本当の理由？	1			0
+10459	2	10003	通常任務8・5(サイドストーリー)	images/album/dungeon/mainscenariobanner_76.png	490200	30004	490230	エピローグ	1			0
